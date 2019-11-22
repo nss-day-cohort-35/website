@@ -6,13 +6,13 @@ state = {
     students: []
 }
 
-componentDidMount() {
-    APIManager.getAll("students").then(students => {
-        this.setState({
-            students: students
-        });
-    });
-}
+// componentDidMount() {
+//     APIManager.getAll("students").then(students => {
+//         this.setState({
+//             students: students
+//         });
+//     });
+// }
 
 
     render() {
@@ -21,9 +21,9 @@ componentDidMount() {
                 <div>
                     <h2>Here be the student list and all its contents that lie within yarrr...</h2>
                 </div>
-                {this.state.students.map(student => (
+                {/* {this.state.students.map(student => ( */}
                 <StudentCard />
-                ))}
+                {/* ))} */}
             </>
         )
     }
