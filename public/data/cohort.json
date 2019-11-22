@@ -1,0 +1,102 @@
+{
+    "cohort": [
+        {
+            "id": 1,
+            "firstName": "Taylor",
+            "lastName": "Carroll",
+            "proImg": "Name.png",
+            "funImg": "Name-Fun.png",
+            "concentration": "Frontend Web Designer/Developer",
+            "quote": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p",
+            "portfolio": "www.website.com",
+            "github": "https://github.com/taylorhcarroll",
+            "linkedIn": "https://www.linkedin.com/in/taylorhcarroll/",
+            "dribbble": "https://dribbble.com/taylorhcarroll",
+            "email": "taylorhcarroll1@gmail.com"
+        },
+        {
+            "id": 2,
+            "firstName": "David",
+            "lastName": "Cornish",
+            "proImg": "Name.png",
+            "funImg": "Name-Fun.png",
+            "concentration": "Full Stack Web Developer",
+            "quote": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p",
+            "portfolio": "www.website.com",
+            "github": "https://github.com/dcornish84",
+            "linkedIn": "https://www.linkedin.com/in/david-l-cornish/",
+            "dribbble": null,
+            "email": "email@email.com"
+        },
+        {
+            "id": 3,
+            "firstName": "Gradi",
+            "lastName": "Ellis",
+            "proImg": "Name.png",
+            "funImg": "Name-Fun.png",
+            "concentration": "Frontend Web Designer/Developer",
+            "quote": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p",
+            "portfolio": "www.website.com",
+            "github": "https://github.com/geellis1",
+            "linkedIn": "https://www.linkedin.com/in/gradiellis/",
+            "dribbble": "www.dribbble.com",
+            "email": "ellis.gradi@gmail.com"
+        },
+        {
+            "id": 4,
+            "firstName": "Dylan",
+            "lastName": "Griffith",
+            "proImg": "Name.png",
+            "funImg": "Name-Fun.png",
+            "concentration": "Full Stack Web Developer",
+            "quote": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p",
+            "portfolio": "www.website.com",
+            "github": "https://github.com/DylPickle11",
+            "linkedIn": "https://www.linkedin.com/in/dylanigriffith/",
+            "dribbble": null,
+            "email": "email@email.com"
+        },
+        {
+            "id": 5,
+            "firstName": "Phil",
+            "lastName": "Griswold",
+            "proImg": "Name.png",
+            "funImg": "Name-Fun.png",
+            "concentration": "Full Stack Web Developer",
+            "quote": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p",
+            "portfolio": "",
+            "github": "https://github.com/Philgriswold",
+            "linkedIn": "https://www.linkedin.com/in/philgriswold/",
+            "dribbble": null,
+            "email": "email@email.com"
+        },
+        {
+            "id": 6,
+            "firstName": "Sage",
+            "lastName": "Klein",
+            "proImg": "Name.png",
+            "funImg": "Name-Fun.png",
+            "concentration": "Frontend Web Designer/Developer",
+            "quote": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p",
+            "portfolio": "www.sageklein.com",
+            "github": "https://github.com/sageklein",
+            "linkedIn": "https://www.linkedin.com/in/sage-klein/",
+            "dribbble": "https://dribbble.com/jchandlerturner",
+            "email": "sageklein@gmail.com"
+        },
+        {
+            "id": 7,
+            "firstName": "Summer",
+            "lastName": "Liddington",
+            "proImg": "Name.png",
+            "funImg": "Name-Fun.png",
+            "concentration": "Frontend Web Designer/Developer",
+            "quote": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p",
+            "portfolio": "www.summerliddington.com",
+            "github": "https://github.com/summerliddington",
+            "linkedIn": "https://www.linkedin.com/in/summerliddington/",
+            "dribbble": "https://dribbble.com/summerliddington",
+            "email": "summerliddington@me.com"
+        }
+    ]
+}
