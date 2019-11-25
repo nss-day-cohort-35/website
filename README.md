@@ -1,6 +1,6 @@
-Class Website for Cohort 33 at Nashville Software School.
+This is the Class Website for Cohort 35 at Nashville Software School.
 
-View at https://nss-day-cohort-35.github.io/c35ClassWebsite/
+View at https://nss-day-cohort-35.github.io/
 
 ## To Install
 In the project directory, run:
