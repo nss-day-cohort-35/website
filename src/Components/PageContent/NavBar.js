@@ -10,9 +10,13 @@ class NavBar extends Component {
                             alt="Cohort 35"
                             src="./images/cohort35_logo_navbar-01.png"
                         />
-                        <h1>Demo Day 2/14/20</h1>
+                        <div className="demoDayInfo">
+                        <h2 className="demoDayDate">Join Us On Our Demo Day: 2/14/20</h2>
 
-                        <button>Register</button>
+                        <button className="demoDayRegister">
+                        <h2 className="registerText">Register</h2>
+                        </button>
+                        </div>
                 </nav>
             </div>
         );
