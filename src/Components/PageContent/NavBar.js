@@ -3,22 +3,19 @@ import React, { Component } from "react";
 class NavBar extends Component {
     render() {
         return (
-            <div className="navbar">
-                <nav className="navbar justify-content-between">
-                    <Link className="logoLink">
-                        <CardImg
+            <div id="navbar">
+                <nav className="navbar">
+                        <img
                             className="logo"
                             alt="Cohort 35"
-                            src={require("../../images/logo.png")}
+                            src="./images/cohort35_logo_navbar-01.png"
                         />
-                    </Link>
-                            Demo Day 2/14/20
-                    <Link>
-                            <button>Register</button>
-                    </Link>
+                        <h1>Demo Day 2/14/20</h1>
+
+                        <button>Register</button>
                 </nav>
             </div>
         );
     }
 }
-export default withRouter(NavBar);
+export default NavBar;
