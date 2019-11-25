@@ -12,9 +12,9 @@ code {
     monospace;
 }
 
-.heroHeaderText {
+/* .heroHeaderText {
   font-family: ;
-}
+} */
 
 .navbar {
   display: flex;
@@ -25,6 +25,9 @@ code {
   display: flex;
   flex-direction: row;
 }
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif; */
 /* .student-pic {
 
 } */
