@@ -12,6 +12,19 @@ code {
     monospace;
 }
 
+.heroHeaderText {
+  font-family: ;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.demoDayInfo {
+  display: flex;
+  flex-direction: row;
+}
 /* .student-pic {
 
 } */
