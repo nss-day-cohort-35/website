@@ -13,8 +13,13 @@ export default class StudentCard extends Component {
     }
 
     toggle = () => {
-        this.setState(prevState => ({
-            hover: !prevState.hover
+        this.setState(({
+            hover: true
+        }))
+    }
+    toggleLeave = () => {
+        this.setState(({
+            hover: false
         }))
     }
 
@@ -22,7 +27,7 @@ export default class StudentCard extends Component {
         return (
         <>
         <div><p>Here's a student card wow!!!!!!!</p></div>
-        <div class="student-pic-container" onMouseLeave={() => {this.toggle()}} onMouseOver={() => {this.toggle()}}>
+        <div class="student-pic-container" onMouseLeave={() => {this.toggleLeave()}} onMouseOver={() => {this.toggle()}}>
             {this.state.hover == true ?
             <img class="student-pic" src={`./images/${this.props.student.funImg}`}/>
         : <img class="student-pic" src={`./images/${this.props.student.proImg}`}/>}
