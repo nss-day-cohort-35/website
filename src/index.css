@@ -57,11 +57,11 @@ code {
   font-size: 30px;
 }
 
-/* .typewriterFont{
+span.Typewriter__wrapper {
   font-family: 'Poppins', sans-serif;
   color: #3e5d7a;
-  font-size: 30px;
-} */
+  font-size: 100px;
+}
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 /* .student-pic {
