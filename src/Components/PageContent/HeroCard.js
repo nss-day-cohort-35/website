@@ -11,7 +11,7 @@ class HeroCard extends Component {
                 <div className="heroCard">
 
                     <h1 className="heroHeaderText">hello!</h1>
-                    <Typewriter
+                    <Typewriter 
                         onInit={(typewriter) => {
                             typewriter.typeString('Hello World!')
                                 .callFunction(() => {
