@@ -1,0 +1,28 @@
+#firstHalfTech {
+    border-style: solid;
+    width: 35vw;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#backendTech {
+    margin-top: 1em;
+    border-style: solid;
+    width: 30vw;
+}
+
+#frontendTech {
+    margin-top: 1em;
+    border-style: solid;
+    width: 30vw;
+}
+
+.tech {
+    border-style: solid;
+    border-radius: .5em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 1em;
+    height: 18.750px;
+}
