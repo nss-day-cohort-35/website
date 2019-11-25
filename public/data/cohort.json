@@ -204,11 +204,11 @@
             "funImg": "Name-Fun.png",
             "concentration": "Full Stack Web Developer",
             "quote": " ",
-            "portfolio": " ",
-            "github": " ",
-            "linkedIn": " ",
+            "portfolio": "",
+            "github": "https://github.com/stephensenft21",
+            "linkedIn": "https://www.linkedin.com/in/stephensenft/",
             "dribbble": null,
-            "email": " "
+            "email": "stephensenft21@gmail.com"
         },
         {
             "id": 16,
