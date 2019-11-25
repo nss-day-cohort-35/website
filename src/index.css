@@ -12,9 +12,11 @@ code {
     monospace;
 }
 
-/* .heroHeaderText {
-  font-family: ;
-} */
+.heroHeaderText {
+  font-family: 'Poppins', sans-serif;
+  font-size: 288px;
+  text-align: center;
+}
 
 .navbar {
   display: flex;
@@ -24,8 +26,36 @@ code {
 .demoDayInfo {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
+  width: 85vw;
+  padding-top: 55px;
 }
 
+.logo {
+  padding-left: 30px;
+  padding-top: 30px;
+  width: 130px;
+}
+
+.demoDayRegister {
+  background-color:#3e5d7a ;
+  width: 150px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.registerText{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.demoDayDate  {
+  font-family: 'Poppins', sans-serif;
+  color: #3e5d7a;
+  font-size: 30px;
+}
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 /* .student-pic {
