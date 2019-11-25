@@ -12,7 +12,7 @@ class NavBar extends Component {
                             src={require("../../images/logo.png")}
                         />
                     </Link>
-                            Demo Day is February 14th!
+                            Demo Day 2/14/20
                     <Link>
                             <button>Register</button>
                     </Link>
