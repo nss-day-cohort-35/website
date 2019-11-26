@@ -1,0 +1,51 @@
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .demoDayInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 85vw;
+    padding-top: 55px;
+  }
+
+  .logo {
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .demoDayRegister {
+    background-color:#3e5d7a ;
+    width: 150px;
+    height: 60px;
+    margin-left: 20px;
+  }
+
+  .registerText{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+  .demoDayDate  {
+    font-family: 'Poppins', sans-serif;
+    color: #3e5d7a;
+    font-size: 30px;
+  }
