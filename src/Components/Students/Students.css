@@ -1,0 +1,37 @@
+.student-card-container {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1366px;
+    margin: 2em;
+}
+
+* {
+    border: 1px red dotted;
+}
+.student-card-background {
+    display: flex;
+    background-color: #3D5E79;
+    height: 640px;
+    width: 360px;
+}
+/* .student-pic-container {
+    display: flex;
+    height: 340;
+    width: auto;
+} */
+.student-pic {
+    display: flex;
+    justify-content: space-evenly;
+    width: 320px;
+    height: auto;
+}
+.student-about {
+    display: flex;
+    align-self: flex-end;
+    flex-flow: column wrap;
+}
+.student-logo-container {
+    display: flex;
+    flex-flow: row;
+    width: 300px;
+}

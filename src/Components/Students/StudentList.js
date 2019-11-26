@@ -19,15 +19,19 @@ export default class StudentList extends Component {
 
     render() {
         return (
-            <>
-                <div>
-                    <h2>Here be the student list and all its contents that lie within yarrr...</h2>
-                </div>
-                {this.state.students.map(student => (
-                    <StudentCard
-                        student={student} />
-                ))}
-            </>
-        )
+			<>
+				<div>
+					<h2>
+						Here be the student list and all its contents that lie
+						within yarrr...
+					</h2>
+				</div>
+				<div className="student-card-container">
+					{this.state.students.map(student => (
+						<StudentCard student={student} />
+					))}
+				</div>
+			</>
+		);
     }
 }
