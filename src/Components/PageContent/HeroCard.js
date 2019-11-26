@@ -11,23 +11,16 @@ class HeroCard extends Component {
                 <div className="heroCard">
 
                     <h1 className="heroHeaderText">hello!</h1>
-                    We are <Typewriter id="typewriterText"
+                    <div className="typewriterTextGreeting">
+                    We are  <Typewriter id="typewriterText"
                         options={{
-                            strings: ['Hello Gradi', 'World'],
+                            strings: [' front-end developers', ' UX/UI designers', ' c# and .net developers', ' really talented humans'],
                             autoStart: true,
                             loop: true,
                             delay: 'natural'
                         }}
-                        // onInit={(typewriter) => {
-                        //     typewriter
-                        //         .deleteAll()
-                        //         .callFunction(() => {
-                        //             console.log('All strings were deleted');
-                        //         })
-                        //         .start();
-                        // }}
                     />
-
+                    </div>
                 </div>
             </div>
         );
