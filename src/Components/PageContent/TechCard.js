@@ -16,6 +16,10 @@ class TechCard extends Component {
                     <a href="https://www.npmjs.com/" className="tech">NPM</a>
                     <a href="https://code.visualstudio.com/" className="tech">Visual Studio Code</a>
                     <a href="https://reactjs.org" className="tech">React</a>
+                    <a href="https://www.getpostman.com/" className="tech">Postman</a>
+                    <a href="https://dbdiagram.io/home" className="tech">dbdiagram</a>
+                    <a href="https://github.com/typicode/json-server" className="tech">JSON Server</a>
+
                 </div>
 
                 <div id="backendTech">
@@ -23,12 +27,16 @@ class TechCard extends Component {
                 <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" className="tech">C#</a>
                 <a href="https://www.microsoft.com/net/" className="tech">.NET Core</a>
                 <a href="https://www.microsoft.com/en-us/sql-server/sql-server-2017" className="tech">SQL Server</a>
+                <a href="https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.0" className="tech">ASP.NET</a>
+                <a href="https://visualstudio.microsoft.com/" className="tech">Visual Studio</a>
                 </div>
 
                 <div id="frontendTech">
                 <h4>UX/UI Tech</h4>
                 <a href="https://www.figma.com/" className="tech">Figma</a>
-                <a href="https://dribbble.com/" className="tech">Dribbble</a>
+                <a href="https://sass-lang.com/" className="tech">SASS</a>
+                <a href="https://firebase.google.com/" className="tech">Firebase</a>
+                <a href="https://reactjs.org/docs/hooks-intro.html" className="tech">React Hooks</a>
                 </div>
             </section>
         );
