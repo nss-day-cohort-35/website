@@ -1,0 +1,56 @@
+
+* {
+    border: 1px red dotted;
+}
+.student-card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: .5em;
+}
+.student-pic-container {
+    display: flex;
+    justify-content: center;
+}
+
+.student-card-background {
+    display: flex;
+    flex-direction: column;
+    background-color: #2C323D;
+    height: auto;
+    width: 360px;
+    margin: .5em;
+}
+.student-card-background {
+    display: flex;
+    flex-direction: column;
+    background-color: #3D5E79;
+    height: auto;
+    width: 360px;
+    margin: .5em;
+}
+
+.student-pic {
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    height: auto;
+    margin-top: .5em;
+}
+.student-about {
+    display: flex;
+    flex-flow: column wrap;
+    margin: .5em;
+}
+.student-logo {
+    display: flex;
+    width: 40px;
+    height: auto;
+    align-self: center;
+}
+.student-logo-container {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: center;
+}
