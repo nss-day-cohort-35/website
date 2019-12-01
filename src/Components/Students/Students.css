@@ -16,11 +16,20 @@
 .student-card-background {
     display: flex;
     flex-direction: column;
+    background-color: #2C323D;
+    height: auto;
+    width: 360px;
+    margin: .5em;
+}
+.student-card-background {
+    display: flex;
+    flex-direction: column;
     background-color: #3D5E79;
     height: auto;
     width: 360px;
     margin: .5em;
 }
+
 .student-pic {
     display: flex;
     justify-content: center;
