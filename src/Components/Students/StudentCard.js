@@ -26,7 +26,14 @@ export default class StudentCard extends Component {
 	render() {
 		return (
 			<>
-				<div className="student-card-background">
+				<div
+					className={
+						this.props.student.concentration ===
+						"Full Stack Web Developer"
+							? "student-card-background"
+							: "student-card-background-UX"
+					}
+				>
 					<div
 						className="student-pic-container"
 						onMouseLeave={() => {
@@ -47,8 +54,9 @@ export default class StudentCard extends Component {
 								src={`./images/${this.props.student.proImg}`}
 							/>
 						)}
-                        </div>
+					</div>
 
+					<div className="student-about-container">
 						<p className="student-about">
 							{this.props.student.firstName}{" "}
 							{this.props.student.lastName}
@@ -59,52 +67,49 @@ export default class StudentCard extends Component {
 						<p className="student-about">
 							{this.props.student.quote}
 						</p>
-						<a
-							className="student-about"
-							href={`${this.props.student.github}`}
-						/>
+					</div>
 
-						<div className="student-logo-container">
+					<div className="student-logo-container">
+						<a href={`${this.props.student.github}`}>
 							<img
 								className="student-logo"
 								alt={`${this.props.student.github}`}
 								src="./images/icons-and-logos/cohort35website_githubicon-01.png"
 							></img>
+						</a>
 
-							<a href={`${this.props.student.linkedIn}`}>
+						<a href={`${this.props.student.linkedIn}`}>
+							<img
+								className="student-logo"
+								alt={`${this.props.student.linkedIn}`}
+								src="./images/icons-and-logos/cohort35website_linkedinicon-01.png"
+							></img>
+						</a>
+						<a href={`${this.props.student.email}`}>
+							<img
+								className="student-logo"
+								alt={`${this.props.student.email}`}
+								src="./images/icons-and-logos/cohort35website_emailicon-01.png"
+							></img>
+						</a>
+						<a href={`${this.props.student.portfolio}`}>
+							<img
+								className="student-logo"
+								alt={`${this.props.student.portfolio}`}
+								src="./images/icons-and-logos/cohort35website_websiteicon-01.png"
+							></img>
+						</a>
+						{this.props.student.dribbble ? (
+							<a href={`${this.props.student.dribbble}`}>
 								<img
 									className="student-logo"
-									alt={`${this.props.student.linkedIn}`}
-									src="./images/icons-and-logos/cohort35website_linkedinicon-01.png"
+									alt={`${this.props.student.dribbble}`}
+									src="./images/icons-and-logos/cohort35website_dribbleicon-01.png"
 								></img>
 							</a>
-							<a href={`${this.props.student.email}`}>
-								<img
-									className="student-logo"
-									alt={`${this.props.student.email}`}
-									src="./images/icons-and-logos/cohort35website_emailicon-01.png"
-								></img>
-							</a>
-							<a href={`${this.props.student.portfolio}`}>
-								<img
-									className="student-logo"
-									alt={`${this.props.student.portfolio}`}
-									src="./images/icons-and-logos/cohort35website_websiteicon-01.png"
-								></img>
-							</a>
-							{this.props.student.dribbble ? (
-								<a href={`${this.props.student.dribbble}`}>
-									<img
-										className="student-logo"
-										alt={`${this.props.student.dribbble}`}
-										src="./images/icons-and-logos/cohort35website_dribbleicon-01.png"
-									></img>
-								</a>
-							) : null}
-						
-                        </div>
+						) : null}
 					</div>
-
+				</div>
 			</>
 		);
 	}
