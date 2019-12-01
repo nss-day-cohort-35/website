@@ -9,9 +9,11 @@ class Footer extends Component {
             <footer>
                 <nav>
                     <ul className="container">
-                        <li>NSS Cohort 35</li>
+                        <li classNam>Nashville Software School <br></br>NSS Cohort 35</li><br></br>
+                        <div className="socialMediaIcons">
                         <li><img id="footerIcon" src={require('./twitter.png')} alt="Twitter Logo" /></li>
                         <li><img id="footerIcon" src={require('./facebook.png')} alt="Facebook Logo" /></li>
+                        </div>
                     </ul>
                 </nav>
             </footer>
