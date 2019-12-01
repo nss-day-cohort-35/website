@@ -18,14 +18,17 @@
     margin-right: 30px;
 }
 
-* {
+/* * {
     border: 1px red dotted;
-}
+} */
 .student-card-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    max-width: 1200px;
+    margin: auto;
 }
 .student-pic-container {
     display: flex;
