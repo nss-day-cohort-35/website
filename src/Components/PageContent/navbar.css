@@ -20,7 +20,7 @@
     flex-direction: row;
     justify-content: flex-end;
     width: 85vw;
-    padding-top: 55px;
+    padding-top: 30px;
   }
 
   .logo {
@@ -31,7 +31,7 @@
   }
 
   .demoDayRegister {
-    background-color:#3e5d7a ;
+    background-color:#d65a40 ;
     width: 150px;
     height: 60px;
     margin-left: 20px;
@@ -46,6 +46,7 @@
 
   .demoDayDate  {
     font-family: 'Poppins', sans-serif;
-    color: #3e5d7a;
+    color: #d65a40;
     font-size: 30px;
+    padding-top: -30px important!;
   }
