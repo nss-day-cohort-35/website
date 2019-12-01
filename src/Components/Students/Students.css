@@ -11,36 +11,43 @@
 .student-pic-container {
     display: flex;
     justify-content: center;
+    width: 360px;
+    /* flex-direction: row; */
 }
 
 .student-card-background {
     display: flex;
-    flex-direction: column;
-    background-color: #2C323D;
-    height: auto;
-    width: 360px;
-    margin: .5em;
-}
-.student-card-background {
-    display: flex;
+    color: white;
     flex-direction: column;
     background-color: #3D5E79;
     height: auto;
     width: 360px;
-    margin: .5em;
+    margin: 1em;
+    margin-left: 1em;
 }
-
+.student-card-background-UX {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color: #2C323D;
+    height: auto;
+    width: 360px;
+    margin: 1em;
+    margin-left: 1em;
+}
 .student-pic {
     display: flex;
     justify-content: center;
-    width: 320px;
+    width: 330px;
     height: auto;
     margin-top: .5em;
 }
-.student-about {
-    display: flex;
+.student-about-container {
     flex-flow: column wrap;
-    margin: .5em;
+    margin-left: 1em;
+    margin-top: .2em;
+    margin-right: 1em;
+    margin-bottom: .2em;
 }
 .student-logo {
     display: flex;
@@ -51,6 +58,8 @@
 .student-logo-container {
     display: flex;
     flex-direction: row;
-    width: 200px;
+    margin-left: .5em;
+    width: 340px;
     justify-content: center;
+    align-items: flex-end;
 }
