@@ -26,9 +26,14 @@ nav .container li {
     font-size: 1.5em;
     color: white;
     box-sizing: border-box;
-    background-color: #3D5E79;
+    background-color: #dda18c;
     list-style-type: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.socialMediaIcons {
+    display: flex;
+    flex-direction: row;
 }
 
 nav .container a {
@@ -48,7 +53,7 @@ picture {
 }
 
 .site-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 0;
