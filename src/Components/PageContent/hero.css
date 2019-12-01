@@ -1,0 +1,56 @@
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+.typewriterTextGreeting  {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    margin-left: 30px;
+    justify-content: center;
+    color: #33384e;
+  }
+
+  span.Typewriter__wrapper {
+    font-family: 'Poppins', sans-serif;
+    color: #33384e;
+    font-size: 0.9em;
+    /* margin-top: -10px !important; */
+    margin-left: 30px !important;
+  }
+
+  .heroHeaderText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18em;
+    text-align: center;
+    margin-bottom: -90px !important;
+    margin-top: -50px;
+    color: #33384e;
+  }
+
+.arrowContainer {
+  display: flex; 
+  justify-content: center;
+}
+
+.cohortIntroText {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #d65a40;
+  padding-top: 40px;
+}
+
+#downArrow {
+  width: 100px;
+}
