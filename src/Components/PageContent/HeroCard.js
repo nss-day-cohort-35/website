@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Typewriter from 'typewriter-effect';
+import './hero.css'
 
 
 
@@ -12,14 +13,18 @@ class HeroCard extends Component {
 
                     <h1 className="heroHeaderText">hello!</h1>
                     <div className="typewriterTextGreeting">
-                    We are  <Typewriter id="typewriterText"
+                    We are <Typewriter id="typewriterText"
                         options={{
-                            strings: [' front-end developers', ' UX/UI designers', ' c# and .net developers', ' really talented humans'],
+                            strings: [' front-end developers.', ' UX/UI designers.', ' c# and .net developers.', ' really talented people.'],
                             autoStart: true,
                             loop: true,
                             delay: 'natural'
                         }}
                     />
+                    </div>
+                    <p className="cohortIntroText">Meet Cohort 35</p>
+                    <div className="arrowContainer">
+                    <img id="downArrow" src={require('../images/down-arrow.png')} alt="Twitter Logo" />
                     </div>
                 </div>
             </div>

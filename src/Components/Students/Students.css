@@ -1,3 +1,22 @@
+.cohortIntroTitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8em;
+  color: #d65a40;
+  /* padding-left: 30px; */
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.cohortDescription {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    /* padding-left: 30px; */
+    margin-top: -15px;
+    padding-right: 30px;
+    color: #33384e;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 * {
     border: 1px red dotted;
@@ -6,42 +25,67 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: .5em;
+    margin: 1em;
 }
 .student-pic-container {
     display: flex;
     justify-content: center;
+    width: 360px;
+    /* flex-direction: row; */
 }
 
 .student-card-background {
     display: flex;
+    color: white;
     flex-direction: column;
     background-color: #3D5E79;
     height: auto;
     width: 360px;
-    margin: .5em;
+    margin: 1em;
+    margin-left: 1em;
+    border-radius: 1em;
+}
+.student-card-background-UX {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color: #2C323D;
+    height: auto;
+    width: 360px;
+    margin: 1em;
+    margin-left: 1em;
+    border-radius: 1em;
 }
 .student-pic {
     display: flex;
     justify-content: center;
-    width: 320px;
+    width: 330px;
     height: auto;
-    margin-top: .5em;
+    margin-top: 1em;
+    border-radius: 1em;
 }
-.student-about {
-    display: flex;
+.student-about-container {
     flex-flow: column wrap;
-    margin: .5em;
+    margin-left: 1em;
+    margin-top: .2em;
+    margin-right: 1em;
+    margin-bottom: .2em;
 }
 .student-logo {
     display: flex;
-    width: 40px;
+    width: 45px;
     height: auto;
     align-self: center;
+    margin-left: .5em;
+    margin-right: .5em;
 }
 .student-logo-container {
     display: flex;
     flex-direction: row;
-    width: 200px;
+    margin-left: .5em;
+    width: 340px;
     justify-content: center;
+    align-items: flex-end;
+    margin-top: auto;
+    margin-bottom: .8em;
 }
