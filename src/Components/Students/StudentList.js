@@ -28,10 +28,12 @@ export default class StudentList extends Component {
                     of web development. After presenting our frontend capstone projects of React applications,
                     our class divided with part of us going towards frontend development focusing on UX/UI design elements and the other part diving more into server-side technology including C# and .NET . </p>
                 </div>
+                <div className="student-card-container">
                 {this.state.students.map(student => (
                     <StudentCard
                         student={student} />
                 ))}
+                </div>
             </>
         )
     }
