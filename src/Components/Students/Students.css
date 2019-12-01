@@ -14,9 +14,9 @@ font-family: 'Poppins', sans-serif;
     color: #33384e;
 }
 
-* {
+/* * {
     border: 1px red dotted;
-}
+} */
 .student-card-container {
     display: flex;
     flex-flow: row wrap;
