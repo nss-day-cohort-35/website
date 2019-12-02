@@ -1,27 +1,50 @@
-* {
+/* * {
     border: 1px red dotted;
-}
+} */
 .student-about-container h2 {
     color:#F6F3E1;
     font-family: 'Poppins';
     text-transform: uppercase;
     font-size: 25px;
     letter-spacing: 2px;
+    margin-bottom: 0px;
+    text-align: center;
 }
+
 .student-about-container h3 {
     color:#F6F3E1;
     font-family: 'Open Sans';
-    font-size: 20px;
+    font-size: 1.5em;
+    margin-top: 0em;
+    text-align: center;
 }
 
 .student-about-container p {
     color:#F6F3E1;
     font-family: 'Open Sans';
-    font-size: 18px;
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+.author {
+    text-align: right;
+    padding-right: 1em;
+    margin-top: .5em;
+}
+
+.concentration {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:#F6F3E1;
+    font-family: 'Poppins';
+    font-size: .85em;
+    margin-top: .6em;
+    margin-bottom: 0em;
+    text-align: center;
 }
 
 .cohortIntroTitle {
-font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.8em;
   color: #d65a40;
   padding-left: 30px;
@@ -76,15 +99,13 @@ font-family: 'Poppins', sans-serif;
     justify-content: center;
     width: 330px;
     height: auto;
-    margin-top: 1em;
+    margin-top: .5em;
     border-radius: 1em;
 }
 .student-about-container {
     flex-flow: column wrap;
     margin-left: 1em;
-    margin-top: .2em;
     margin-right: 1em;
-    margin-bottom: .2em;
 }
 .student-logo {
     display: flex;
