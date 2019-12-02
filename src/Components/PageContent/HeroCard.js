@@ -13,9 +13,9 @@ class HeroCard extends Component {
 
                     <h1 className="heroHeaderText">hello!</h1>
                     <div className="typewriterTextGreeting">
-                    We are <Typewriter id="typewriterText"
+                    we are<Typewriter id="typewriterText"
                         options={{
-                            strings: [' front-end developers.', ' UX/UI designers.', ' c# and .net developers.', ' really talented people.'],
+                            strings: ['front-end developers.', 'UX/UI designers.', 'c# and .net developers.', 'really talented people.'],
                             autoStart: true,
                             loop: true,
                             delay: 'natural'
