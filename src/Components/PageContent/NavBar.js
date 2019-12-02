@@ -12,7 +12,7 @@ class NavBar extends Component {
                             src="./images/cohort35_logo_navbar-01.png"
                         />
                         <div className="demoDayInfo">
-                        <h2 className="demoDayDate">Nashville Software School Demo Day <br></br> February 14, 2020</h2>
+                        <h3 className="demoDayDate">Nashville Software School Demo Day: February 14, 2020</h3>
 
                         <button className="demoDayRegister">
                         <h2 className="registerText">Register</h2>
