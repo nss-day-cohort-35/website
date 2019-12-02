@@ -7,7 +7,6 @@ class TechCard extends Component {
             <section className="techSection">
             <h2 className="technologiesIntroTitle">technologies used:</h2>
                 <div id="firstHalfTech">
-
                 <h4 className="technologiesTitleText">First 12 Weeks</h4>
                     <a href="https://www.javascript.com/" className="techAll">JavaScript</a>
                     <a href="https://github.com/" className="techAll">Github</a>
