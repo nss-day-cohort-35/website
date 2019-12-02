@@ -57,16 +57,16 @@ export default class StudentCard extends Component {
 					</div>
 
 					<div className="student-about-container">
-						<p className="student-about">
+						<h2 className="student-about">
 							{this.props.student.firstName}{" "}
 							{this.props.student.lastName}
-						</p>
+						</h2>
+						<h3 className="student-about">
+							{this.props.student.concentration}</h3>
 						<p className="student-about">
-							{this.props.student.concentration}
-						</p>
-						<p className="student-about">
-							{this.props.student.quote}
-						</p>
+							{this.props.student.quote}</p>
+                        <p className="student-about">
+							{this.props.student.author}</p>
 					</div>
 
 					<div className="student-logo-container">
