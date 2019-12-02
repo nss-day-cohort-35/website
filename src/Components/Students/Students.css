@@ -1,3 +1,25 @@
+* {
+    border: 1px red dotted;
+}
+.student-about-container h2 {
+    color:#F6F3E1;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.student-about-container h3 {
+    color:#F6F3E1;
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+
+.student-about-container p {
+    color:#F6F3E1;
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+
 .cohortIntroTitle {
 font-family: 'Poppins', sans-serif;
   font-size: 1.8em;
@@ -14,9 +36,6 @@ font-family: 'Poppins', sans-serif;
     color: #33384e;
 }
 
-/* * {
-    border: 1px red dotted;
-} */
 .student-card-container {
     display: flex;
     flex-flow: row wrap;
@@ -32,7 +51,7 @@ font-family: 'Poppins', sans-serif;
 
 .student-card-background {
     display: flex;
-    color: white;
+    color: #F6F3E1;
     flex-direction: column;
     background-color: #3D5E79;
     height: auto;
@@ -43,7 +62,7 @@ font-family: 'Poppins', sans-serif;
 }
 .student-card-background-UX {
     display: flex;
-    color: white;
+    color: #F6F3E1;
     flex-direction: column;
     background-color: #2C323D;
     height: auto;
