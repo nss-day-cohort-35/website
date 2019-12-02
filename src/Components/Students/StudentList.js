@@ -26,7 +26,7 @@ export default class StudentList extends Component {
                     <p className="cohortDescription">The first half of our 6 month bootcamp
                     journey started the same for all of us in our cohort by learning the basic foundations
                     of web development. After presenting our frontend capstone projects of React applications,
-                    our class divided with part of us going towards frontend development focusing on UX/UI design elements and the other part diving more into server-side technology including C# and .NET . </p>
+                    our class divided with part of us going towards <span id="cohortFrontend"> frontend development focusing on UX/UI design elements </span> and the other part diving more into <span id="cohortBackend"> server-side technology including .NET and #C. </span> </p>
                 </div>
                 <div className="student-card-container">
                 {this.state.students.map(student => (
