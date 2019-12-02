@@ -34,6 +34,9 @@ export default class StudentCard extends Component {
 							: "student-card-background-UX"
 					}
 				>
+					<h3 className="student-about concentration">
+						{this.props.student.concentration}
+					</h3>
 					<div
 						className="student-pic-container"
 						onMouseLeave={() => {
@@ -46,26 +49,29 @@ export default class StudentCard extends Component {
 						{this.state.hover == true ? (
 							<img
 								class="student-pic"
+								alt={`${this.props.student.name}`}
 								src={`./images/${this.props.student.funImg}`}
 							/>
 						) : (
 							<img
 								className="student-pic"
+								alt={`${this.props.student.name}`}
 								src={`./images/${this.props.student.proImg}`}
 							/>
 						)}
 					</div>
 
 					<div className="student-about-container">
-						<p className="student-about">
+						<h2 className="student-about">
 							{this.props.student.firstName}{" "}
 							{this.props.student.lastName}
-						</p>
-						<p className="student-about">
-							{this.props.student.concentration}
-						</p>
+						</h2>
+
 						<p className="student-about">
 							{this.props.student.quote}
+						</p>
+						<p className="student-about author">
+							{this.props.student.author}
 						</p>
 					</div>
 
