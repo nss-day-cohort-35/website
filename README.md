@@ -13,6 +13,11 @@ Who are our users?
 
 ## Wireframes and Mockups
 
+Phase 1, Phase 2?
+
+## User Testing
+Who did we ask about the project?
+
 ## Lessons Learned
 
 ## To Install
