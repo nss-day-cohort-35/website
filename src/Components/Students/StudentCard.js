@@ -48,7 +48,7 @@ export default class StudentCard extends Component {
 					>
 						{this.state.hover == true ? (
 							<img
-								class="student-pic"
+								className="student-pic"
 								alt={`${this.props.student.name}`}
 								src={`./images/${this.props.student.funImg}`}
 							/>
