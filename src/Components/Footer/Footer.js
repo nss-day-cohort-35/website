@@ -11,9 +11,9 @@ class Footer extends Component {
                     <ul className="container">
                         <li className="footerCopy">Nashville Software School <br></br>NSS Cohort 35 &copy; 2019</li><br></br>
                         <div className="socialMediaIcons">
-                        <li id="footerSocial"><img id="footerIcon" src={require('./twitter.png')} alt="Twitter Logo" /></li>
-                        <li id="footerSocial"><img id="footerIcon" src={require('./facebook.png')} alt="Facebook Logo" /></li>
-                        <li id="footerSocial"><img id="footerIcon" src={require('./linkedin.png')} alt="LinkedIn Logo" /></li>
+                        <li id="footerSocial"><a href="https://twitter.com/NashSoftware" target="_blank"><img id="footerIcon" src={require('./twitter.png')} alt="Twitter Logo" /></a></li>
+                        <li id="footerSocial"><a href="https://www.facebook.com/NashvilleSoftwareSchool/" target="_blank"><img id="footerIcon" src={require('./facebook.png')} alt="Facebook Logo" /></a></li>
+                        <li id="footerSocial"><a href="https://www.linkedin.com/school/nashville-software-school/" target="_blank"><img id="footerIcon" src={require('./linkedin.png')} alt="LinkedIn Logo" /></a></li>
                         </div>
                     </ul>
                 </nav>
