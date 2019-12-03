@@ -13,40 +13,56 @@
 .navbar {
     display: flex;
     flex-direction: row;
+    margin-left: 100px;
+
   }
 
-  .demoDayInfo {
+  /* .demoDayInfo
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    width: 85vw;
-    padding-top: 30px;
-  }
+    justify-content: center;
+    align-items: flex-end;
+    /* width: 85vw; */
+
+
 
   .logo {
-    padding-left: 30px;
     padding-top: 30px;
-    width: 10rem;
-    height: 10rem;
+    width: 6rem;
+    height: 6rem;
   }
 
   .demoDayRegister {
     background-color:#d65a40 ;
-    width: 150px;
+    width: 120px;
     height: 60px;
-    margin-left: 20px;
+    border-style: none;
   }
+
 
   .registerText{
     font-family: 'Poppins', sans-serif;
     color: white;
     text-transform: uppercase;
     font-size: 20px;
+    margin: 0px;
   }
 
   .demoDayDate  {
     font-family: 'Poppins', sans-serif;
     color: #d65a40;
-    font-size: 30px;
-    padding-top: -30px important!;
+    font-size: 20px;
+    margin: 0px !important;
+    padding-bottom: 14px;
   }
+
+  .demoDayDateContainer {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 440px;
+  }
+
+.demoDayRegisterContainer{
+  margin-top: 66px;
+  margin-left: 20px;
+}
