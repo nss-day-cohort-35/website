@@ -286,20 +286,19 @@
 			"email": "jchandlerturner@icloud.com"
 		},
         {
-			"id": 20,
-			"firstName": "Nate",
-			"lastName": "Vogel",
-			"proImg": "Name.png",
-			"funImg": "Name-Fun.png",
-			"concentration": "Full Stack Web Developer",
-			"quote": "I'm a design-minded full-stack developer with UX/UI experience, who loves taking projects from inception to deployment.",
-			"author": "",
-			"portfolio": "https://navogel.github.io/",
-			"github": "https://github.com/navogel",
-			"linkedIn": "https://www.linkedin.com/in/nathan-vogel-2009/",
-			"dribbble": null,
-			"email": "navogel@gmail.com"
-		},
+            "id": 20,
+            "firstName": "Nate",
+            "lastName": "Vogel",
+            "proImg": "Name.png",
+            "funImg": "Name-Fun.png",
+            "concentration": "Full Stack Web Developer",
+            "quote": "I'm a design-minded full-stack developer with UX/UI experience, who loves taking projects from inception to deployment.",
+            "portfolio": "https://navogel.github.io/",
+            "github": "https://github.com/navogel",
+            "linkedIn": "https://www.linkedin.com/in/nathan-vogel-2009/",
+            "dribbble": null,
+            "email": "navogel@gmail.com"
+        },
         {
 			"id": 21,
 			"firstName": "Aryn",
