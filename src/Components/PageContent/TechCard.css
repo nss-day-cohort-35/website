@@ -1,11 +1,10 @@
-/* #firstHalfTech {
-    border-style: solid;
-    width: 35vw;
+#firstHalfTech {
     display: flex;
     flex-flow: row wrap;
+    justify-content: left;
 }
 
-#backendTech {
+/* #backendTech {
     margin-top: 1em;
     border-style: none;
     width: 30vw;
