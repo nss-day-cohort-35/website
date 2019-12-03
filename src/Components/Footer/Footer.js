@@ -13,6 +13,7 @@ class Footer extends Component {
                         <div className="socialMediaIcons">
                         <li><img id="footerIcon" src={require('./twitter.png')} alt="Twitter Logo" /></li>
                         <li><img id="footerIcon" src={require('./facebook.png')} alt="Facebook Logo" /></li>
+                        <li><img id="footerIcon" src={require('./linkedin.png')} alt="LinkedIn Logo" /></li>
                         </div>
                     </ul>
                 </nav>
