@@ -1,3 +1,30 @@
 li {
     list-style-type: none;
 }
+
+.thanksContainer {
+    background-color:#dda18c;
+    padding-bottom: 20px;
+}
+
+.thankYouTitle {
+    font-family: 'Poppins', sans-serif;
+    color: #33384e;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2em;
+}
+
+.speakersInfo  {
+    font-family: 'Open Sans', sans-serif;
+    color: #33384e;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.speakerNames{
+    font-family: 'Open Sans', sans-serif;
+    color: #33384e;
+    text-align: center;
+    font-size: 1.2em;
+}
