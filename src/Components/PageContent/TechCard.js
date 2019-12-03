@@ -46,7 +46,6 @@ class TechCard extends Component {
                     <a href="#" className="techFront">Journey Mapping</a>
                     <a href="#" className="techFront">Design Systems</a>
                     <a href="#" className="techFront">Info Architecture</a>
-                    <a href="#" className="techFront">User Research</a>
                 </div>
             </section>
         );
