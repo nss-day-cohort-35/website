@@ -77,7 +77,10 @@
     color: #F6F3E1;
     background-color: #3D5E79;
 }
-
+#cohortBeginning {
+    color: #2C323D;
+    background-color: #CF9A89;
+}
 .student-card-container {
     display: flex;
     flex-flow: row wrap;
