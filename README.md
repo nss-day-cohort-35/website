@@ -1,6 +1,24 @@
-This is the Class Website for Cohort 35 at Nashville Software School.
+Welcome to the Class Website for Cohort 35 at Nashville Software School.
 
 View at https://nss-day-cohort-35.github.io/
+
+## Project Overview
+What is the project?
+
+## Challenge Statement
+What is the problem?
+
+## Personas
+Who are our users?
+
+## Wireframes and Mockups
+
+Phase 1, Phase 2?
+
+## User Testing
+Who did we ask about the project?
+
+## Lessons Learned
 
 ## To Install
 In the project directory, run:
