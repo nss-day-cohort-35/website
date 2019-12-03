@@ -71,6 +71,9 @@
     margin-right: 1em;
     max-width: 1200px;
     margin: auto;
+    background-image: url('/images/dot-grid.png');
+    background-repeat: repeat-y repeat-x;
+    box-shadow: 0 0 32px 32px white inset;
 }
 .student-pic-container {
     display: flex;

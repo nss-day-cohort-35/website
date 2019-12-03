@@ -22,7 +22,7 @@ export default class StudentList extends Component {
         return (
             <>
                 <div>
-                    <h2 className="cohortIntroTitle">we are unique and here's why: </h2>
+                    <h2 id="cohortIntroTitle" className="cohortIntroTitle">we are unique and here's why: </h2>
                     <p className="cohortDescription">The first half of our 6 month bootcamp
                     journey started the same for all of us in our cohort by learning the basic foundations
                     of web development. After presenting our frontend capstone projects of React applications,
