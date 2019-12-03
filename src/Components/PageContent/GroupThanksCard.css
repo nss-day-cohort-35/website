@@ -11,7 +11,7 @@ li {
     font-family: 'Poppins', sans-serif;
     color: #33384e;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 16px;
     font-size: 2em;
 }
 
@@ -20,11 +20,48 @@ li {
     color: #33384e;
     text-align: center;
     font-size: 1.5em;
+    margin-bottom: 4px;
 }
 
 .speakerNames{
     font-family: 'Open Sans', sans-serif;
     color: #33384e;
-    text-align: center;
     font-size: 1.2em;
+}
+
+.guestSpeakerListFirst  {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.guestSpeakerListSecond  {
+    display: flex;
+    flex-direction: column;
+}
+
+.guestSpeakers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boldName {
+    font-weight: bold;
+}
+
+.teachersInfo  {
+    font-family: 'Open Sans', sans-serif;
+    color: #33384e;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 6px;
+}
+
+.teacherNames  {
+    font-family: 'Open Sans', sans-serif;
+    color: #33384e;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
 }

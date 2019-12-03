@@ -8,26 +8,33 @@ export default class GroupThanksCard extends Component {
         return (
             <>
             <div className="thanksContainer">
-                <h2 className="thankYouTitle">Special Thanks to: </h2>
-                <h3 className="speakersInfo">Our guest speakers:</h3>
+                <h2 className="thankYouTitle">Special Thanks: </h2>
+                <h3 className="speakersInfo">We are grateful for our guest speakers from the Nashville Tech Community!</h3>
+                <div className="guestSpeakers">
                 <ul>
-                    <li className="speakerNames">Gina Antonini</li>
-                    <li className="speakerNames">Lauren Atkins</li>
-                    <li className="speakerNames">Rachel Babcock</li>
-                    <li className="speakerNames">Allison Collins</li>
-                    <li className="speakerNames">Jase Hackman</li>
-                    <li className="speakerNames">Richard Lancaster</li>
-                    <li className="speakerNames">Dillian Teagle</li>
-                    <li className="speakerNames">Rachel Vawter</li>
-                    <li className="speakerNames">Gretchen Ward</li>
-                    <li className="speakerNames">JD Wheeler</li>
-                    <li className="speakerNames">Trevon Young</li>
+                
+                    <div className="guestSpeakerListFirst">
+                    <li className="speakerNames"><span className="boldName">Gina Antonini,</span>company name goes here</li>
+                    <li className="speakerNames"><span className="boldName">Lauren Atkins, </span>Brooksource</li>
+                    <li className="speakerNames"><span className="boldName">Rachel Babcock, </span>Change Healthcare</li>
+                    <li className="speakerNames"><span className="boldName">Allison Collins,</span> Brooksource</li>
+                    <li className="speakerNames"><span className="boldName">Jase Hackman,</span> company name goes here</li>
+                    </div>
+                    </ul>
+                    <ul>
+                    <div className="guestSpeakerListSecond">
+                    <li className="speakerNames"><span className="boldName">Richard Lancaster,</span> company name goes here</li>
+                    <li className="speakerNames"><span className="boldName">Dillian Teagle, </span>company name goes here</li>
+                    <li className="speakerNames"><span className="boldName">Rachel Vawter, </span>company name goes here</li>
+                    <li className="speakerNames"><span className="boldName">Gretchen Ward,</span> company name goes here</li>
+                    <li className="speakerNames"><span className="boldName">JD Wheeler,</span> company name goes here</li>
+                    <li className="speakerNames"><span className="boldName">Trevon Young,</span> company name goes here</li>
+                    </div>
+                    
                 </ul>
-                <h3 className="speakersInfo">...and our wonderful teachers and instructors</h3>
-                    <li className="speakerNames">Brenda Long</li>
-                    <li className="speakerNames">Mo</li>
-                    <li className="speakerNames">Madi</li>
-                    <li className="speakerNames">Adam</li>
+                </div>
+                <h3 className="teachersInfo">...and our wonderful teachers and instructors</h3>
+                    <li className="teacherNames">Brenda Long, Madi Peper, Adam Sheaffer, and Mo Silvera</li>
             </div>
             </>
 
