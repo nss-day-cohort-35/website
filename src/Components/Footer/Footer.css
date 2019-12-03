@@ -70,3 +70,15 @@ footer {
     height: 50px;
     width: 50px;
 }
+
+.footerCopy {
+    padding-left: 8em !important;
+}
+
+#footerSocial {
+    padding-top: 20px !important;
+}
+
+.container {
+    margin-top: 2em;
+}
