@@ -21,8 +21,8 @@ class TechCard extends Component {
                     <a href="https://github.com/typicode/json-server" className="techAll">JSON Server</a>
                 </div>
                 <hr className="technologiesLine"></hr>
-                <div id="backendTech">
                 <h4 className="technologiesTitleText">Full Stack</h4>
+                <div id="backendTech">
                     <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" className="techBack">C#</a>
                     <a href="https://www.microsoft.com/net/" className="techBack">.NET Core</a>
                     <a href="https://www.microsoft.com/en-us/sql-server/sql-server-2017" className="techBack">SQL Server</a>
@@ -30,8 +30,8 @@ class TechCard extends Component {
                 <a href="https://visualstudio.microsoft.com/" className="techBack">Visual Studio</a>
                 </div>
                 <hr className="technologiesLine"></hr>
-                <div id="frontendTech">
                 <h4  className="technologiesTitleText">UX/UI</h4>
+                <div id="frontendTech">
                     <a href="https://www.figma.com/" className="techFront">Figma</a>
                     <a href="https://sass-lang.com/" className="techFront">SASS</a>
                     <a href="https://firebase.google.com/" className="techFront">Firebase</a>
