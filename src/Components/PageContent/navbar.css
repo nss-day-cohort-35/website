@@ -13,16 +13,17 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
 
   }
 
   .demoDayInfo {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    width: 85vw;
+    justify-content: flex-end;
+    align-items: right;
+    width: 100vw;
     }
 
 
@@ -60,7 +61,7 @@
   .demoDayDateContainer {
     display: flex;
     align-items: flex-end;
-    margin-left: 27em;
+    /* margin-left: 27em; */
     flex-wrap: wrap;
 
   }
