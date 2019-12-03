@@ -17,12 +17,13 @@
 
   }
 
-  /* .demoDayInfo
+  .demoDayInfo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    /* width: 85vw; */
+    width: 85vw;
+    }
 
 
 
@@ -59,10 +60,12 @@
   .demoDayDateContainer {
     display: flex;
     align-items: flex-end;
-    margin-left: 440px;
+    margin-left: 27em;
+    flex-wrap: wrap;
+
   }
 
-.demoDayRegisterContainer{
-  margin-top: 66px;
-  margin-left: 20px;
+  .demoDayRegisterContainer{
+    margin-top: 66px;
+    margin-left: 20px;
 }
