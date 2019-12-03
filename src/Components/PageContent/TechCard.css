@@ -15,7 +15,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: left;
-} 
+}
 
 .techAll {
     border-radius: .2em;
@@ -39,6 +39,7 @@
     text-decoration: none;
     background-color:#33384e;
     margin-left: 30px;
+    margin-top: 10px;
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 1.3em;
@@ -53,6 +54,7 @@
     text-decoration: none;
     background-color:#33384e;
     margin-left: 30px;
+    margin-top: 10px;
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 1.3em;
@@ -79,4 +81,8 @@
 .technologiesLine {
     border: 1px solid #33384e;
     margin-top: 40px !important;
+}
+
+.technologiesLine {
+    opacity: 25%;
 }

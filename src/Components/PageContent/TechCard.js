@@ -5,7 +5,7 @@ class TechCard extends Component {
     render() {
         return (
             <section className="techSection">
-            <h2 className="technologiesIntroTitle">technologies and skills:</h2>
+                <h2 className="technologiesIntroTitle">technologies and skills:</h2>
                 <h4 className="technologiesTitleText">First 12 Weeks</h4>
                 <div id="firstHalfTech">
                     <a href="https://www.javascript.com/" target="_blank" className="techAll">JavaScript</a>
@@ -27,16 +27,26 @@ class TechCard extends Component {
                     <a href="https://www.microsoft.com/net/" target="_blank" className="techBack">.NET Core</a>
                     <a href="https://www.microsoft.com/en-us/sql-server/sql-server-2017" target="_blank" className="techBack">SQL Server</a>
                     <a href="https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.0" target="_blank" className="techBack">ASP.NET</a>
-                <a href="https://visualstudio.microsoft.com/" target="_blank" className="techBack">Visual Studio</a>
+                    <a href="https://visualstudio.microsoft.com/" target="_blank" className="techBack">Visual Studio</a>
+                    <a href="https://reactjs.org/docs/hooks-intro.html" target="_blank" className="techBack">React Hooks</a>
                 </div>
                 <hr className="technologiesLine"></hr>
-                <h4  className="technologiesTitleText">UX/UI</h4>
+                <h4 className="technologiesTitleText">UX/UI</h4>
                 <div id="frontendTech">
                     <a href="https://www.figma.com/" target="_blank" className="techFront">Figma</a>
                     <a href="https://sass-lang.com/" target="_blank" className="techFront">SASS</a>
                     <a href="https://firebase.google.com/" target="_blank" className="techFront">Firebase</a>
                     <a href="https://reactjs.org/docs/hooks-intro.html" target="_blank" className="techFront">React Hooks</a>
                     <a href="https://dribbble.com/" target="_blank" className="techFront">Dribbble</a>
+                    <a href="#" className="techFront">User Research</a>
+                    <a href="#" className="techFront">Personas</a>
+                    <a href="#" className="techFront">Prototyping/Mockups</a>
+                    <a href="#" className="techFront">User Testing</a>
+                    <a href="#" className="techFront">Usability Testing</a>
+                    <a href="#" className="techFront">Journey Mapping</a>
+                    <a href="#" className="techFront">Design Systems</a>
+                    <a href="#" className="techFront">Info Architecture</a>
+                    <a href="#" className="techFront">User Research</a>
                 </div>
             </section>
         );
