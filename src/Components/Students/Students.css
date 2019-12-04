@@ -64,7 +64,7 @@
     white-space: pre-wrap;
     color: #2C323D;
     margin-top: 0em;
-    margin-bottom: 2.5em;
+    
     margin-left: 4em;
     margin-right: 4em;
 }
@@ -98,6 +98,8 @@
     background-image: url('/images/dot-grid.png');
     background-repeat: repeat-y repeat-x;
     /* box-shadow: 0 0 32px 32px white inset; */
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
 }
 .student-pic-container {
     display: flex;
