@@ -4,7 +4,6 @@
 
 ## Project Overview
 Each cohort at NSS has a class website for potential employers to view student accomplishments prior to Demo Day. As the UX/UI half of Cohort 35 we used our class website as a protype to showcase our abilities in the design and implemenation process of user design. We bypassed the cookie cutter template that past cohorts have used and started from scratch by:
-
 + defining our user
 + understanding their pain points
 + creating a new website layout
