@@ -96,6 +96,7 @@
     background-repeat: repeat-y repeat-x;
     /* box-shadow: 0 0 32px 32px white inset; */
     padding-top: 2.5em;
+    padding-bottom: 2.5em;
 }
 .student-pic-container {
     display: flex;
