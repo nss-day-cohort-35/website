@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('/images/dot-grid.png');
+  background-repeat: repeat-y repeat-x;
+  box-shadow: 0 0 32px 32px white inset; */
 }
 
 code {
@@ -12,9 +15,9 @@ code {
     monospace;
 }
 
-
-
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 

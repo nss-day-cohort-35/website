@@ -12,8 +12,8 @@ function App() {
       <NavBar />
       <HeroCard />
       <StudentList />
-      <GroupThanksCard />
       <TechCard />
+      <GroupThanksCard />
       <Footer />
     </div>
   );
