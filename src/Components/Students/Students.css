@@ -72,14 +72,17 @@
 #cohortFrontend {
     color: #F6F3E1;
     background-color: #2C323D;
+    border-radius: .2em;
 }
 #cohortBackend {
     color: #F6F3E1;
     background-color: #3D5E79;
+    border-radius: .2em;
 }
 #cohortBeginning {
     color: #2C323D;
     background-color: #CF9A89;
+    border-radius: .2em;
 }
 .student-card-container {
     display: flex;

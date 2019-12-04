@@ -33,7 +33,7 @@ export default class GroupThanksCard extends Component {
                     
                 </ul>
                 </div>
-                <h3 className="teachersInfo">...and our wonderful teachers and instructors</h3>
+                <h3 className="teachersInfo">...and our wonderful istruction team</h3>
                     <li className="teacherNames">Brenda Long, Madi Peper, Adam Sheaffer, and Mo Silvera</li>
             </div>
             </>
