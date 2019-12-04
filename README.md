@@ -1,31 +1,54 @@
-Welcome to the Class Website for Cohort 35 at Nashville Software School.
+# Welcome to the Nashville Software School's Cohort 35 Website
 
-View at https://nss-day-cohort-35.github.io/
+*View at https://nss-day-cohort-35.github.io/*
 
 ## Project Overview
 Each cohort at NSS has a class website for potential employers to view student accomplishments prior to Demo Day. As the UX/UI half of Cohort 35 we used our class website as a protype to showcase our abilities in the design and implemenation process of user design. We bypassed the cookie cutter template that past cohorts have used and started from scratch by:
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 + defining our user
 + understanding their pain points
 + creating a new website layout
 + condensing copy and information
 + observing user testing
+<<<<<<< HEAD
 
 Then deploying after user testing feedback had been considered and adjustments made.
+=======
+>>>>>>> master
 
 ## Challenge Statement
-What is the problem?
+How might we promote Demo Day and showcase Cohort 35’s dual skill sets to potential employers with the ultimate goal of employment?
 
 ## Personas
-Who are our users?
+<img src="RMImages/Persona.png" alt="Persona">
 
 ## Wireframes and Mockups
 
-Phase 1, Phase 2?
+Individually, we researched color palettes on websites such as: 
+
++ https://coolors.co/
++ https://color.adobe.com/create
++ http://colormind.io/
+
+Then the UI/UX class narrowed down our options to 2 color palettes. We felt the colors in the palettes we chose were both muted and modern. We then sent the 2 palettes choices in a poll to the full stack side of the cohort to vote on. Once the votes were in we used the agreed apon colors for the website.
+
+We used Figma to prototype the Website: 
+
+<img src="RMImages/Figma.png" alt="Figma Mock"> 
 
 ## User Testing
-Who did we ask about the project?
+For our research we interviewed our career services and placement team here at Nashville Software School.
+
+We also connected with local external graphic designers and senior web developers in the industry for informal feed back before finalizing our project.
 
 ## Lessons Learned
+
++ Observing user testing through out the creation of a project can help keep focus on areas that are important to the end user.
++ 
+
 
 ## To Install
 In the project directory, run:

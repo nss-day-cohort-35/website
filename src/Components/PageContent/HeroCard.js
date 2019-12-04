@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import Typewriter from 'typewriter-effect';
 import './hero.css'
 
-
-
-
 class HeroCard extends Component {
     render() {
         return (
@@ -24,7 +21,10 @@ class HeroCard extends Component {
                     </div>
                     <p className="cohortIntroText">Meet Cohort 35</p>
                     <div className="arrowContainer">
-                    <img id="downArrow" src={require('../images/down-arrow.png')} alt="Twitter Logo" />
+                    <a href="#scroll">
+                        <img id="downArrow" src={require('../images/down-arrow.png')} alt="Twitter Logo"
+                        />
+                    </a>
                     </div>
                 </div>
             </div>
