@@ -47,7 +47,7 @@ We also connected with local external graphic designers and senior web developer
 ## Lessons Learned
 
 + Observing user testing through out the creation of a project can help keep focus on areas that are important to the end user.
-+ 
++ Refering to the defined user can help guide decision making.
 
 
 ## To Install
