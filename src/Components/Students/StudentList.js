@@ -22,7 +22,7 @@ export default class StudentList extends Component {
         return (
             <>
                 <div>
-                    <h2 className="cohortIntroTitle">we are different and here's why: </h2>
+                    <h2 id="scroll" className="cohortIntroTitle">we are different and here's why: </h2>
                     <p className="cohortDescription">Once we conquered our <span id="cohortBeginning"> frontend foundations </span> with a ReactJS capstone, we split into two complementary paths: <span id="cohortFrontend"> UI/UX design </span> and <span id="cohortBackend"> .NET and C#. </span> Our joint skillsets create user-centric front and backend applications. </p>
                 </div>
                 <div className="student-body">
