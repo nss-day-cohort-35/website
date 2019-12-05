@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/nss-day-cohort-35/static/css/main.98a3e0c3.chunk.css",
-    "main.js": "/nss-day-cohort-35/static/js/main.6f06fa8c.chunk.js",
-    "main.js.map": "/nss-day-cohort-35/static/js/main.6f06fa8c.chunk.js.map",
-    "runtime-main.js": "/nss-day-cohort-35/static/js/runtime-main.0351966e.js",
-    "runtime-main.js.map": "/nss-day-cohort-35/static/js/runtime-main.0351966e.js.map",
-    "static/js/2.6f3decc2.chunk.js": "/nss-day-cohort-35/static/js/2.6f3decc2.chunk.js",
-    "static/js/2.6f3decc2.chunk.js.map": "/nss-day-cohort-35/static/js/2.6f3decc2.chunk.js.map",
-    "index.html": "/nss-day-cohort-35/index.html",
-    "precache-manifest.a057b4ab198e27ced6c747a79bb6a6ed.js": "/nss-day-cohort-35/precache-manifest.a057b4ab198e27ced6c747a79bb6a6ed.js",
-    "service-worker.js": "/nss-day-cohort-35/service-worker.js",
-    "static/css/main.98a3e0c3.chunk.css.map": "/nss-day-cohort-35/static/css/main.98a3e0c3.chunk.css.map"
+    "main.css": "/website/static/css/main.98a3e0c3.chunk.css",
+    "main.js": "/website/static/js/main.6f06fa8c.chunk.js",
+    "main.js.map": "/website/static/js/main.6f06fa8c.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.f93ce3a8.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.f93ce3a8.js.map",
+    "static/js/2.6f3decc2.chunk.js": "/website/static/js/2.6f3decc2.chunk.js",
+    "static/js/2.6f3decc2.chunk.js.map": "/website/static/js/2.6f3decc2.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.5b05004e43dbed895f056aa09dbf189f.js": "/website/precache-manifest.5b05004e43dbed895f056aa09dbf189f.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/main.98a3e0c3.chunk.css.map": "/website/static/css/main.98a3e0c3.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.0351966e.js",
+    "static/js/runtime-main.f93ce3a8.js",
     "static/js/2.6f3decc2.chunk.js",
     "static/css/main.98a3e0c3.chunk.css",
     "static/js/main.6f06fa8c.chunk.js"
