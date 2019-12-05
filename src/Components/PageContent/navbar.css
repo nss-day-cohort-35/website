@@ -56,6 +56,9 @@
     font-size: 20px;
     margin: 0px !important;
   }
+  #demoDay {
+    color: #2C323D;
+  }
 
   .demoDayDateContainer {
     display: flex;
