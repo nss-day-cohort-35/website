@@ -4,53 +4,45 @@
     align-content: center;
     padding-left: 15px;
     padding-left: 140px;
-
 }
-
  #backendTech {
     display: flex;
     flex-flow: row wrap;
     justify-content: left;
     padding-left: 15px;
 }
-
-
 #frontendTech {
     display: flex;
     flex-flow: row wrap;
     justify-content: left;
     padding-left: 15px;
 }
-
 .secondHalfTech {
     display: flex;
     flex-direction: column;
 }
-
 .techSection {
     display: flex;
     flex-direction: row;
     margin-top: -30px;
 }
-
 .fullCohort {
     display: flex;
     flex-direction: column;
 }
-
 .splitCohort {
     display: flex;
     flex-direction: column;
     margin-right: 200px;
 }
-
 .techAll {
     border-radius: .2em;
     text-align: center;
     text-decoration: none;
-    background-color:#2C323D;
-    margin-left: 30px;
-    margin-top: 10px;
+    background-color:#33384e;
+    margin-left: 15px;
+    margin-top: 7px;
+    margin-right: -8px;
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 1.1em;
@@ -59,19 +51,19 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
 .techFront {
     border-radius: .2em;
     text-align: center;
     text-decoration: none;
-    background-color:#2C323D;
-    margin-left: 30px;
-    margin-top: 10px;
+    background-color:#33384e;
+    margin-left: 15px;
+    margin-right: -8px;
+    margin-top: 7px;
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 1.1em;
     padding-left: 10px;
-    padding-right: 5px;
+    padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -80,9 +72,9 @@
     border-radius: .2em;
     text-align: center;
     text-decoration: none;
-    background-color:#2C323D;
-    margin-left: 30px;
-    margin-top: 10px;
+    background-color:#33384e;
+    margin-left: 15px;
+    margin-top: 7px;
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 1.1em;
@@ -91,14 +83,12 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
 .technologiesIntroTitle{
   font-family: 'Poppins', sans-serif;
   font-size: 1.8em;
   color: #d65a40;
   padding-left: 30px;
 }
-
 .technologiesTitleText {
     font-family: 'Poppins', sans-serif;
     color: #33384e;
@@ -106,7 +96,6 @@
     font-size: 1.5em;
     margin-bottom: 7px;
 }
-
 .technologiesTitleTextFirst {
     font-family: 'Poppins', sans-serif;
     color: #33384e;
@@ -115,7 +104,6 @@
     margin-bottom: 7px;
     margin-top: 100px;
 }
-
 .technologiesTitleTextFront {
     font-family: 'Poppins', sans-serif;
     color: #33384e;
@@ -124,14 +112,11 @@
     margin-bottom: 7px;
     margin-top: 10px;
 }
-
 .technologiesLine {
-    border: 1px solid #2C323D;
+    border: 1px solid #33384e;
     margin-top: 40px !important;
     margin-left: 20px;
 }
-
 /* .technologiesLine {
     opacity: 25%;
 } */
-
