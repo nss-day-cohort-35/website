@@ -21,7 +21,7 @@
     border-radius: .2em;
     text-align: center;
     text-decoration: none;
-    background-color:#33384e;
+    background-color:#2C323D;
     margin-left: 30px;
     margin-top: 10px;
     font-family: 'Open Sans', sans-serif;
@@ -37,7 +37,7 @@
     border-radius: .2em;
     text-align: center;
     text-decoration: none;
-    background-color:#33384e;
+    background-color:#2C323D;
     margin-left: 30px;
     margin-top: 10px;
     font-family: 'Open Sans', sans-serif;
@@ -52,7 +52,7 @@
     border-radius: .2em;
     text-align: center;
     text-decoration: none;
-    background-color:#33384e;
+    background-color:#2C323D;
     margin-left: 30px;
     margin-top: 10px;
     font-family: 'Open Sans', sans-serif;
@@ -79,7 +79,7 @@
 }
 
 .technologiesLine {
-    border: 1px solid #33384e;
+    border: 1px solid #2C323D;
     margin-top: 40px !important;
 }
 
