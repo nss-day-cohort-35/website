@@ -1,0 +1,92 @@
+{
+    "allTechs": [
+        {
+            "id": 1,
+            "name": "Javascript",
+            "image": "javascript.png",
+            "link": "https://www.javascript.com/"
+        },
+        {
+            "id": 2,
+            "name": "Github",
+            "image": "github.png",
+            "link": "https://github.com/"
+        },
+        {
+            "id": 3,
+            "name": "HTML5",
+            "image": "html5.png",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+        },
+        {
+            "id": 4,
+            "name": "CSS3",
+            "image": "css3.png",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
+        },
+        {
+            "id": 5,
+            "name": "Bootstrap",
+            "image": "bootstrap.png",
+            "link": "https://getbootstrap.com/"
+        },
+        {
+            "id": 6,
+            "name": "NPM",
+            "image": "npm.png",
+            "link": "https://www.npmjs.com/"
+        },
+        {
+            "id": 7,
+            "name": "SQL Server",
+            "image": "sqlserver.png",
+            "link": "https://www.microsoft.com/en-us/sql-server/sql-server-2017"
+        },
+        {
+            "id": 8,
+            "name": "Visual Studio Code",
+            "image": "vsc.png",
+            "link": "https://code.visualstudio.com/"
+        },
+        {
+            "id": 9,
+            "name": "Visual Studio",
+            "image": "VisualStudio.png",
+            "link": "https://www.visualstudio.com/vs/"
+        },
+        {
+            "id": 10,
+            "name": "React",
+            "image": "react.png",
+            "link": "https://reactjs.org"
+        }
+    ],
+    "fullStackTech": [
+        {
+            "id": 1,
+            "name": "C#",
+            "image": "csharp.png",
+            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+        },
+        {
+            "id": 2,
+            "name": ".NET Core",
+            "image": "dotnetcore.png",
+            "link": "https://www.microsoft.com/net/"
+        }
+    ],
+    "UIUXTech": [
+        {
+            "id": 1,
+             "name": "Figma",
+            "image": "grunt.png",
+            "link": "https://gruntjs.com/"
+        },
+        {
+            "id": 2,
+            "name": "Dribble",
+            "image": "dotnetcore.png",
+            "link": "https://www.microsoft.com/net/"
+        }
+    ]
+}
