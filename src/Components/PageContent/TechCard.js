@@ -16,7 +16,7 @@ class TechCard extends Component {
                     <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank" className="techAll">CSS3</a>
                     <a href="https://getbootstrap.com/" target="_blank" className="techAll">Bootstrap</a>
                     <a href="https://www.npmjs.com/" target="_blank" className="techAll">NPM</a>
-                    <a href="https://code.visualstudio.com/" target="_blank" className="techAll">Visual Studio Code</a>
+                    <a href="https://code.visualstudio.com/" target="_blank" className="techAll">VS Code</a>
                     <a href="https://reactjs.org" target="_blank" className="techAll">React</a>
                     <a href="https://www.getpostman.com/" target="_blank" className="techAll">Postman</a>
                     <a href="https://dbdiagram.io/home" target="_blank" className="techAll">dbdiagram</a>

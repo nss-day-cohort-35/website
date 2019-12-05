@@ -18,7 +18,9 @@
     margin-top: 0em;
     text-align: center;
 }
-
+.highlighted-text {
+    padding: .1em .2em;
+}
 .student-about-container p {
     color:#F6F3E1;
     font-family: 'Open Sans';

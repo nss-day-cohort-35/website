@@ -9,7 +9,7 @@ li {
 
 .thankYouTitle {
     font-family: 'Poppins', sans-serif;
-    color: #33384e;
+    color: #2C323D;
     text-align: center;
     padding-top: 16px;
     font-size: 2em;
@@ -17,7 +17,7 @@ li {
 
 .speakersInfo  {
     font-family: 'Open Sans', sans-serif;
-    color: #33384e;
+    color: #2C323D;
     text-align: center;
     font-size: 1.5em;
     margin-bottom: 4px;
@@ -25,7 +25,7 @@ li {
 
 .speakerNames{
     font-family: 'Open Sans', sans-serif;
-    color: #33384e;
+    color: #2C323D;
     font-size: 1.2em;
 }
 
@@ -52,7 +52,7 @@ li {
 
 .teachersInfo  {
     font-family: 'Open Sans', sans-serif;
-    color: #33384e;
+    color: #2C323D;
     text-align: center;
     font-size: 1.5em;
     margin-bottom: 6px;
@@ -60,7 +60,7 @@ li {
 
 .teacherNames  {
     font-family: 'Open Sans', sans-serif;
-    color: #33384e;
+    color: #2C323D;
     font-size: 1.2em;
     text-align: center;
     font-weight: bold;
