@@ -1,6 +1,10 @@
 /* * {
     border: 1px red dotted;
 } */
+.sort-container {
+    display: flex;
+    justify-content: center;
+}
 .student-about-container h2 {
     color:#F6F3E1;
     font-family: 'Poppins';
