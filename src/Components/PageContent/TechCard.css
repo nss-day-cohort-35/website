@@ -1,13 +1,16 @@
 #firstHalfTech {
     display: flex;
     flex-flow: row wrap;
-    justify-content: left;
+    align-content: center;
+    padding-left: 15px;
+
 }
 
  #backendTech {
     display: flex;
     flex-flow: row wrap;
     justify-content: left;
+    padding-left: 15px;
 }
 
 
@@ -15,6 +18,23 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: left;
+    padding-left: 15px;
+}
+
+.secondHalfTech {
+    display: flex;
+    flex-direction: column;
+}
+
+.techSection {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+}
+
+.fullCohort {
+    display: flex;
+    flex-direction: column;
 }
 
 .techAll {
@@ -22,15 +42,16 @@
     text-align: center;
     text-decoration: none;
     background-color:#33384e;
-    margin-left: 30px;
-    margin-top: 10px;
+    margin-left: 15px;
+    margin-top: 7px;
+    margin-right: -8px;
     font-family: 'Open Sans', sans-serif;
     color: white;
-    font-size: 1.3em;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 1.1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .techFront {
@@ -38,30 +59,32 @@
     text-align: center;
     text-decoration: none;
     background-color:#33384e;
-    margin-left: 30px;
-    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: -8px;
+    margin-top: 7px;
     font-family: 'Open Sans', sans-serif;
     color: white;
-    font-size: 1.3em;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 1.1em;
+    padding-left: 10px;
+    padding-right: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .techBack {
+    margin-right: -8px;
     border-radius: .2em;
     text-align: center;
     text-decoration: none;
     background-color:#33384e;
-    margin-left: 30px;
-    margin-top: 10px;
+    margin-left: 15px;
+    margin-top: 7px;
     font-family: 'Open Sans', sans-serif;
     color: white;
-    font-size: 1.3em;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 1.1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .technologiesIntroTitle{
@@ -73,16 +96,19 @@
 
 .technologiesTitleText {
     font-family: 'Poppins', sans-serif;
-    color: #d65a40;
+    color: #33384e;
     margin-left: 30px;
     font-size: 1.5em;
+    margin-bottom: 7px;
 }
 
 .technologiesLine {
     border: 1px solid #33384e;
     margin-top: 40px !important;
+    margin-left: 20px;
 }
 
-.technologiesLine {
+/* .technologiesLine {
     opacity: 25%;
-}
+} */
+

@@ -4,12 +4,14 @@ import './TechCard.css'
 class TechCard extends Component {
     render() {
         return (
-            <section className="techSection">
+            <>
                 <h2 className="technologiesIntroTitle">technologies and skills:</h2>
+                <div className="techSection">
+                <div className="fullCohort">
                 <h4 className="technologiesTitleText">First 12 Weeks</h4>
                 <div id="firstHalfTech">
                     <a href="https://www.javascript.com/" target="_blank" className="techAll">JavaScript</a>
-                    <a href="https://github.com/" target="_blank" className="techAll">Github</a>
+                    <a href="https://github.com/" target="_blank" className="techAll">GitHub</a>
                     <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank" className="techAll">HTML5</a>
                     <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank" className="techAll">CSS3</a>
                     <a href="https://getbootstrap.com/" target="_blank" className="techAll">Bootstrap</a>
@@ -20,8 +22,11 @@ class TechCard extends Component {
                     <a href="https://dbdiagram.io/home" target="_blank" className="techAll">dbdiagram</a>
                     <a href="https://github.com/typicode/json-server" target="_blank" className="techAll">JSON Server</a>
                 </div>
+                </div>
                 <hr className="technologiesLine"></hr>
+                <div className="fullCohort">
                 <h4 className="technologiesTitleText">Full Stack</h4>
+                <div id="secondHalfTech">
                 <div id="backendTech">
                     <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" className="techBack">C#</a>
                     <a href="https://www.microsoft.com/net/" target="_blank" className="techBack">.NET Core</a>
@@ -31,6 +36,7 @@ class TechCard extends Component {
                     <a href="https://reactjs.org/docs/hooks-intro.html" target="_blank" className="techBack">React Hooks</a>
                 </div>
                 <hr className="technologiesLine"></hr>
+                </div>
                 <h4 className="technologiesTitleText">UX/UI</h4>
                 <div id="frontendTech">
                     <a href="https://www.figma.com/" target="_blank" className="techFront">Figma</a>
@@ -47,7 +53,9 @@ class TechCard extends Component {
                     <a href="#" className="techFront">Design Systems</a>
                     <a href="#" className="techFront">Info Architecture</a>
                 </div>
-            </section>
+                </div>
+            </div>
+            </>
         );
     }
 }
