@@ -96,7 +96,7 @@ export default class StudentCard extends Component {
 							<img
 								className="student-logo"
 								alt={`${this.props.student.portfolio}`}
-								src="./images/icons-and-logos/cohort35website_websiteicon-01.png"
+								src="./images/icons-and-logos/interneticon-01.png"
 							></img>
 						</a>
 						<a href={`mailto:${this.props.student.email}`}>
