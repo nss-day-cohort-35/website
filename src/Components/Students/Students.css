@@ -1,6 +1,4 @@
-/* * {
-    border: 1px red dotted;
-} */
+
 .student-about-container h2 {
     color:#F6F3E1;
     font-family: 'Poppins';
@@ -66,7 +64,6 @@
     white-space: pre-wrap;
     color: #2C323D;
     margin-top: 0em;
-    
     margin-left: 4em;
     margin-right: 4em;
 }
@@ -93,7 +90,7 @@
 }
 
 .student-body{
-    background-image: url('/images/dot-grid.png');
+    background-image: url('../images/dot-grid.png');
     background-repeat: repeat-y repeat-x;
     /* box-shadow: 0 0 32px 32px white inset; */
     padding-top: 2.5em;
