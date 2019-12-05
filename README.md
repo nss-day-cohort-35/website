@@ -18,7 +18,7 @@ How might we promote Demo Day and showcase Cohort 35’s dual skill sets to pote
 
 ## Wireframes and Mockups
 
-Individually, we researched color palettes on websites such as: 
+Individually, we researched color palettes on websites such as:
 
 + https://coolors.co/
 + https://color.adobe.com/create
