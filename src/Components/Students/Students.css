@@ -78,7 +78,7 @@
 }
 #cohortBackend {
     color: #F6F3E1;
-    background-color: #2C323D;
+    background-color: #3D5E79;
     border-radius: .2em;
 }
 
@@ -110,7 +110,7 @@
     display: flex;
     color: #F6F3E1;
     flex-direction: column;
-    background-color: #2C323D;
+    background-color: #3D5E79;
     height: auto;
     width: 360px;
     margin: 1em;
