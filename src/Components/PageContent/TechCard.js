@@ -8,7 +8,7 @@ class TechCard extends Component {
                 <h2 className="technologiesIntroTitle">technologies and skills:</h2>
                 <div className="techSection">
                 <div className="fullCohort">
-                <h4 className="technologiesTitleText">First 12 Weeks</h4>
+                <h4 className="technologiesTitleTextFirst">First 12 Weeks</h4>
                 <div id="firstHalfTech">
                     <a href="https://www.javascript.com/" target="_blank" className="techAll">JavaScript</a>
                     <a href="https://github.com/" target="_blank" className="techAll">GitHub</a>
@@ -24,7 +24,7 @@ class TechCard extends Component {
                 </div>
                 </div>
                 <hr className="technologiesLine"></hr>
-                <div className="fullCohort">
+                <div className="splitCohort">
                 <h4 className="technologiesTitleText">Full Stack</h4>
                 <div id="secondHalfTech">
                 <div id="backendTech">
@@ -37,7 +37,7 @@ class TechCard extends Component {
                 </div>
                 <hr className="technologiesLine"></hr>
                 </div>
-                <h4 className="technologiesTitleText">UX/UI</h4>
+                <h4 className="technologiesTitleTextFront">UX/UI</h4>
                 <div id="frontendTech">
                     <a href="https://www.figma.com/" target="_blank" className="techFront">Figma</a>
                     <a href="https://sass-lang.com/" target="_blank" className="techFront">SASS</a>
