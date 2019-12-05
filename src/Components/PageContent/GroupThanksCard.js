@@ -13,16 +13,16 @@ export default class GroupThanksCard extends Component {
                     <div className="guestSpeakers">
                         <ul>
                             <div className="guestSpeakerListFirst">
-                                <li className="speakerNames"><span className="boldName">Gina Antonini,</span>company name</li>
+                                <li className="speakerNames"><span className="boldName">Gina Antonini,</span> Sarah Cannon Network</li>
                                 <li className="speakerNames"><span className="boldName">Lauren Atkins, </span>Brooksource</li>
                                 <li className="speakerNames"><span className="boldName">Rachel Babcock, </span>Change Healthcare</li>
                                 <li className="speakerNames"><span className="boldName">Allison Collins,</span> Brooksource</li>
-                                <li className="speakerNames"><span className="boldName">Jase Hackman,</span> company name</li>
-                                <li className="speakerNames"><span className="boldName">Richard Lancaster,</span> company name</li>
-                                <li className="speakerNames"><span className="boldName">Dillian Teagle, </span>company name</li>
-                                <li className="speakerNames"><span className="boldName">Rachel Vawter, </span>company name</li>
-                                <li className="speakerNames"><span className="boldName">Gretchen Ward,</span> company name</li>
-                                <li className="speakerNames"><span className="boldName">JD Wheeler,</span> company name</li>
+                                <li className="speakerNames"><span className="boldName">Jase Hackman,</span> Healthstream</li>
+                                <li className="speakerNames"><span className="boldName">Richard Lancaster,</span> SmileDirectClub</li>
+                                <li className="speakerNames"><span className="boldName">Dillan Teagle, </span> CPI Card Group</li>
+                                <li className="speakerNames"><span className="boldName">Rachel Vawter, </span> Brooksource</li>
+                                <li className="speakerNames"><span className="boldName">Gretchen Ward,</span>  Advance Financial</li>
+                                <li className="speakerNames"><span className="boldName">JD Wheeler,</span>  Groups360</li>
                             </div>
                         </ul>
                         <ul>

@@ -14,11 +14,11 @@ class NavBar extends Component {
                     />
                     <div className="demoDayInfo">
                         <div className="demoDayDateContainer">
-                            <h3 className="demoDayDate">Nashville Software School Demo Day: February 14, 2020</h3>
+                            <h3 className="demoDayDate">Nashville Software School <span id="demoDay">Demo Day 2•14•2020</span></h3>
                         </div>
                         <div className="demoDayRegisterContainer">
                             <button className="demoDayRegister">
-                                <h2 className="registerText">Register</h2>
+                                <h2 className="registerText">RSVP</h2>
                             </button>
                         </div>
                     </div>
