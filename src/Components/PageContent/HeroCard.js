@@ -12,7 +12,7 @@ class HeroCard extends Component {
                     <div className="typewriterTextGreeting">
                     we are<Typewriter id="typewriterText"
                         options={{
-                            strings: ['front-end developers', 'UX/UI designers', 'c# and .net developers', 'really talented people'],
+                            strings: ['frontend developers', 'UX/UI designers', 'c# and .net developers', 'ready to work'],
                             autoStart: true,
                             loop: true,
                             delay: 'natural'

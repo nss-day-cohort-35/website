@@ -76,7 +76,7 @@ export default class StudentCard extends Component {
 					</div>
 
 					<div className="student-logo-container">
-						<a href={`${this.props.student.github}`}>
+						<a href={`${this.props.student.github}`} target="_blank">
 							<img
 								className="student-logo"
 								alt={`${this.props.student.github}`}
@@ -84,21 +84,21 @@ export default class StudentCard extends Component {
 							></img>
 						</a>
 
-						<a href={`${this.props.student.linkedIn}`}>
+						<a href={`${this.props.student.linkedIn}`}target="_blank">
 							<img
 								className="student-logo"
 								alt={`${this.props.student.linkedIn}`}
 								src="./images/icons-and-logos/cohort35website_linkedinicon-01.png"
 							></img>
 						</a>
-						<a href={`${this.props.student.email}`}>
+						<a href={`mailto:${this.props.student.email}`}>
 							<img
 								className="student-logo"
 								alt={`${this.props.student.email}`}
 								src="./images/icons-and-logos/cohort35website_emailicon-01.png"
 							></img>
 						</a>
-						<a href={`${this.props.student.portfolio}`}>
+						<a href={`${this.props.student.portfolio}`}target="_blank">
 							<img
 								className="student-logo"
 								alt={`${this.props.student.portfolio}`}
@@ -106,7 +106,7 @@ export default class StudentCard extends Component {
 							></img>
 						</a>
 						{this.props.student.dribbble ? (
-							<a href={`${this.props.student.dribbble}`}>
+							<a href={`${this.props.student.dribbble}`}target="_blank">
 								<img
 									className="student-logo"
 									alt={`${this.props.student.dribbble}`}
