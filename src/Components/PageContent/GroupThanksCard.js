@@ -53,7 +53,7 @@ export default class GroupThanksCard extends Component {
                     <p className="teacherNames">Brenda Long, Madi Peper, Adam Sheaffer, and Mo Silvera</p>
                 </div>
                 <div className="groupImg">
-                    <img width="100%" src="images/thanks1.jpg" alt="groupPhoto" />
+                    <img width="100%" src="images/fullcohortfun.jpg" alt="groupPhoto" />
                 </div>
             </>
 
