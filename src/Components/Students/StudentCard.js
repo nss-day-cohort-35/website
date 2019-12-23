@@ -91,18 +91,19 @@ export default class StudentCard extends Component {
 								src="./images/icons-and-logos/cohort35website_linkedinicon-01.png"
 							></img>
 						</a>
+						
+						<a href={`${this.props.student.portfolio}`}target="_blank">
+							<img
+								className="student-logo"
+								alt={`${this.props.student.portfolio}`}
+								src="./images/icons-and-logos/interneticon-01.png"
+							></img>
+						</a>
 						<a href={`mailto:${this.props.student.email}`}>
 							<img
 								className="student-logo"
 								alt={`${this.props.student.email}`}
 								src="./images/icons-and-logos/cohort35website_emailicon-01.png"
-							></img>
-						</a>
-						<a href={`${this.props.student.portfolio}`}target="_blank">
-							<img
-								className="student-logo"
-								alt={`${this.props.student.portfolio}`}
-								src="./images/icons-and-logos/cohort35website_websiteicon-01.png"
 							></img>
 						</a>
 						{this.props.student.dribbble ? (
