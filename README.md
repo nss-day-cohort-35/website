@@ -1,6 +1,6 @@
 # Welcome to the Nashville Software School's Cohort 35 Website
 
-*View at https://nss-day-cohort-35.github.io/*
+*View at https://nss-day-cohort-35.github.io/website/*
 
 ## Project Overview
 Each cohort at NSS has a class website for potential employers to view student accomplishments prior to Demo Day. As the UX/UI half of Cohort 35 we used our class website as a protype to showcase our abilities in the design and implementation process of user design. We bypassed the cookie cutter template that past cohorts have used and started from scratch by:
