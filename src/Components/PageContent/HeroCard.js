@@ -6,8 +6,6 @@ class HeroCard extends Component {
     render() {
         return (
             <div id="heroCard">
-                <div className="heroCard">
-
                     <h1 className="heroHeaderText">hello!</h1>
                     <div className="typewriterTextGreeting">
                     we are<Typewriter id="typewriterText"
@@ -26,7 +24,6 @@ class HeroCard extends Component {
                         />
                     </a>
                     </div>
-                </div>
             </div>
         );
     }

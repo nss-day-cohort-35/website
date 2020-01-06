@@ -6,16 +6,19 @@ import NavBar from './Components/PageContent/NavBar'
 import GroupThanksCard from './Components/PageContent/GroupThanksCard'
 import TechCard from './Components/PageContent/TechCard';
 
-function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <HeroCard />
+/*
+
       <StudentList />
       <TechCard />
       <GroupThanksCard />
       <Footer />
-    </div>
+      */
+function App() {
+  return (
+    <>
+      <NavBar />
+      <HeroCard />
+    </>
   );
 }
 

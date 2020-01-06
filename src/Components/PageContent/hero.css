@@ -35,10 +35,11 @@
     margin-bottom: -90px !important;
     margin-top: -50px;
     color: #2C323D;
+    margin-top: 0px;
   }
 
 .arrowContainer {
-  display: flex; 
+  display: flex;
   justify-content: center;
 }
 
