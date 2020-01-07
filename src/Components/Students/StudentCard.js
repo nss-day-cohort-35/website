@@ -24,6 +24,7 @@ export default class StudentCard extends Component {
 	};
 
 	render() {
+    console.log("student", this.props.student)
 		return (
 			<>
 				<div
@@ -49,13 +50,13 @@ export default class StudentCard extends Component {
 						{this.state.hover === true ? (
 							<img
 								className="student-pic"
-								alt={`${this.props.student.name}`}
+                alt={`${this.props.student.firstName} ${this.props.student.lastName}`}
 								src={`./images/${this.props.student.funImg}`}
 							/>
 						) : (
 							<img
 								className="student-pic"
-								alt={`${this.props.student.name}`}
+                  alt={`${this.props.student.firstName} ${this.props.student.lastName}`}
 								src={`./images/${this.props.student.proImg}`}
 							/>
 						)}
