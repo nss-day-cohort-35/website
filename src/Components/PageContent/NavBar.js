@@ -19,7 +19,9 @@ class NavBar extends Component {
 							</h3>
 						</div>
 						<div className="demoDayRegisterContainer">
-							<button className="demoDayRegister">
+              <button className="demoDayRegister" onClick={()=>{
+                    window.location.href = "http://nashss.com/demoday"
+              }}>
 								<h2 className="registerText">RSVP</h2>
 							</button>
 						</div>

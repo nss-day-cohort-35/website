@@ -37,6 +37,10 @@
   padding-top: 40px;
 }
 
+.scrollContainer a {
+  text-decoration: none;
+}
+
 #downArrow {
   width: 100px;
 }

@@ -10,7 +10,7 @@ export default class StudentList extends Component {
 
     componentDidMount() {
         APIManager.getAll().then(students => {
-            console.log(students, "students")
+            // console.log(students, "students")
             this.setState({
                 students: students.cohort
             });
@@ -21,7 +21,7 @@ export default class StudentList extends Component {
     render() {
         return (
 			<>
-				<div>
+				<div id="studentList">
 					<h2 id="scroll" className="cohortIntroTitle">
 						we are different and here's why:{" "}
 					</h2>
@@ -45,8 +45,8 @@ export default class StudentList extends Component {
 				</div>
 				<div className="student-body">
 					<div className="student-card-container">
-						{this.state.students.map(student => (
-							<StudentCard student={student} />
+						{this.state.students.map((student,index) => (
+							<StudentCard student={student} key={index}/>
 						))}
 					</div>
 				</div>
