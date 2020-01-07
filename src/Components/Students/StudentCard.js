@@ -46,16 +46,16 @@ export default class StudentCard extends Component {
 							this.toggle();
 						}}
 					>
-						{this.state.hover == true ? (
+						{this.state.hover === true ? (
 							<img
 								className="student-pic"
-								alt={`${this.props.student.name}`}
+                alt={`${this.props.student.firstName} ${this.props.student.lastName}`}
 								src={`./images/${this.props.student.funImg}`}
 							/>
 						) : (
 							<img
 								className="student-pic"
-								alt={`${this.props.student.name}`}
+                  alt={`${this.props.student.firstName} ${this.props.student.lastName}`}
 								src={`./images/${this.props.student.proImg}`}
 							/>
 						)}
@@ -76,7 +76,7 @@ export default class StudentCard extends Component {
 					</div>
 
 					<div className="student-logo-container">
-						<a href={`${this.props.student.github}`} target="_blank">
+            <a href={`${this.props.student.github}`} target="_blank" rel="noopener noreferrer">
 							<img
 								className="student-logo"
 								alt={`${this.props.student.github}`}
@@ -84,15 +84,15 @@ export default class StudentCard extends Component {
 							></img>
 						</a>
 
-						<a href={`${this.props.student.linkedIn}`}target="_blank">
+            <a href={`${this.props.student.linkedIn}`} target="_blank" rel="noopener noreferrer">
 							<img
 								className="student-logo"
 								alt={`${this.props.student.linkedIn}`}
 								src="./images/icons-and-logos/cohort35website_linkedinicon-01.png"
 							></img>
 						</a>
-						
-						<a href={`${this.props.student.portfolio}`}target="_blank">
+
+            <a href={`${this.props.student.portfolio}`} target="_blank" rel="noopener noreferrer">
 							<img
 								className="student-logo"
 								alt={`${this.props.student.portfolio}`}
@@ -107,7 +107,7 @@ export default class StudentCard extends Component {
 							></img>
 						</a>
 						{this.props.student.dribbble ? (
-							<a href={`${this.props.student.dribbble}`}target="_blank">
+              <a href={`${this.props.student.dribbble}`} target="_blank" rel="noopener noreferrer">
 								<img
 									className="student-logo"
 									alt={`${this.props.student.dribbble}`}

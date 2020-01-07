@@ -2,6 +2,9 @@ li {
     list-style-type: none;
 }
 
+.thankswrapper{
+  background-color:#dda18c;
+}
 .thanksContainer {
     background-color:#dda18c;
     padding-bottom: 20px;
@@ -29,21 +32,10 @@ li {
     font-size: 1.2em;
 }
 
-.guestSpeakerListFirst  {
-    display: flex;
-    flex-direction: column;
-    padding-right: 50px;
-}
-
-.guestSpeakerListSecond  {
-    display: flex;
-    flex-direction: column;
-}
-
-.guestSpeakers {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.guestSpeakerList  {
+    -webkit-columns: 3; /* Chrome, Safari, Opera */
+    -moz-columns: 3; /* Firefox */
+    columns: 3;
 }
 
 .boldName {
@@ -55,7 +47,7 @@ li {
     color: #2C323D;
     text-align: center;
     font-size: 1.5em;
-    margin-bottom: 6px;
+    margin: 0 .8em 1em;
 }
 
 .teacherNames  {
@@ -67,6 +59,14 @@ li {
 }
 
 .groupImg{
-margin-bottom: 0px;
-background-color: #dda18c;
+  margin-bottom: 0px;
+  background-color: #dda18c;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 675px) {
+  .guestSpeakerList {
+    columns: 1;
+  }
 }

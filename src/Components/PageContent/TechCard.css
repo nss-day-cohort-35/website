@@ -1,9 +1,8 @@
-#firstHalfTech {
+.firstHalfTech {
     display: flex;
     flex-flow: row wrap;
     align-content: center;
-    padding-left: 15px;
-    padding-left: 140px;
+    margin-left: 2em;
 }
  #backendTech {
     display: flex;
@@ -24,16 +23,18 @@
 .techSection {
     display: flex;
     flex-direction: row;
-    margin-top: -30px;
+    margin-top: 2em;
 }
 .fullCohort {
     display: flex;
     flex-direction: column;
+    padding-left: 2em;
 }
 .splitCohort {
     display: flex;
     flex-direction: column;
-    margin-right: 200px;
+    margin-right: 2em;
+    padding-left: 2em;
 }
 .techAll {
     border-radius: .2em;
@@ -66,6 +67,7 @@
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-bottom: 0px;
 }
 .techBack {
     margin-right: -8px;
@@ -73,7 +75,7 @@
     text-align: center;
     text-decoration: none;
     background-color:#33384e;
-    margin-left: 15px;
+    margin-left: 1em;
     margin-top: 7px;
     font-family: 'Open Sans', sans-serif;
     color: white;
@@ -85,16 +87,19 @@
 }
 .technologiesIntroTitle{
   font-family: 'Poppins', sans-serif;
-  font-size: 1.8em;
-  color: #d65a40;
-  padding-left: 30px;
+    font-size: 2em;
+    color: #d65a40;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
 }
 .technologiesTitleText {
     font-family: 'Poppins', sans-serif;
     color: #33384e;
-    margin-left: 30px;
+    margin-left: 2em;
     font-size: 1.5em;
     margin-bottom: 7px;
+    margin-top:0px;
 }
 .technologiesTitleTextFirst {
     font-family: 'Poppins', sans-serif;
@@ -114,9 +119,36 @@
 }
 .technologiesLine {
     border: 1px solid #33384e;
-    margin-top: 40px !important;
-    margin-left: 20px;
+    margin-top: 2.5em;
+    margin-left: 2em;
 }
-/* .technologiesLine {
-    opacity: 25%;
-} */
+.technologiesHLine {
+    border: 1px solid #33384e;
+    margin-top: 2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 540px) {
+  .technologiesTitleText {
+    margin-left: .8em;
+  }
+  .firstHalfTech {
+    margin-left: .1em;
+  }
+  .fullCohort {
+    padding-left:.1em;
+  }
+  .splitCohort {
+    margin-left: 0px;
+    padding-left: 0px
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
