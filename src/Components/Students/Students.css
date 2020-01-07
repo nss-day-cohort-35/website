@@ -54,25 +54,18 @@
   color: #d65a40;
   margin-top:0px;
   margin-bottom: 0px;
-  /* padding-left: 30px; */
-  /* margin-left: 5.2em; */
-  /* margin-top: 2.5em; */
-  /* margin-bottom: 0em; */
+  text-align: center;
 
 }
 
 .cohortDescription {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
-    /* padding-left: 30px; */
     line-height: 1.5em;
-    /* padding-right: 3em;
-    padding-left: 3em; */
     white-space: pre-wrap;
     color: #2C323D;
     margin-top: 0px;
-    /* margin-left: 4em; */
-    /* margin-right: 4em; */
+    text-align:center;
 }
 
 #cohortFrontend {
@@ -99,8 +92,6 @@
 .student-body{
     background-image: url('../images/dot-grid.png');
     background-repeat: repeat-y repeat-x;
-    /* box-shadow: 0 0 32px 32px white inset; */
-    padding-top: 2.5em;
     padding-bottom: 2.5em;
 }
 .student-pic-container {
@@ -162,4 +153,16 @@
     align-items: flex-end;
     margin-top: auto;
     margin-bottom: .8em;
+}
+
+.paths {
+  display: block;
+  text-align:center;
+  padding: .2em;
+}
+
+@media (max-width: 675px) {
+  #studentList {
+    width: 100%;
+  }
 }
