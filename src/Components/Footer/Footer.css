@@ -13,7 +13,7 @@ header {
     text-align: center;
 }
 
-nav {
+footer nav {
   background-color: #dda18c;
   /* display: flex; */
 }
@@ -52,6 +52,7 @@ nav .container li {
     color: #2C323D;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    margin-top:0px
 }
 
 nav .container a {

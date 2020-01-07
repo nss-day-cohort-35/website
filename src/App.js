@@ -10,8 +10,7 @@ import TechCard from './Components/PageContent/TechCard';
 
 
       <TechCard />
-      <GroupThanksCard />
-      <Footer />
+
       */
 function App() {
   return (
@@ -19,7 +18,8 @@ function App() {
       <NavBar />
       <HeroCard />
       <StudentList />
-      <TechCard />
+
+      <GroupThanksCard />
       <Footer />
     </>
   );

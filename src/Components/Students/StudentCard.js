@@ -24,7 +24,6 @@ export default class StudentCard extends Component {
 	};
 
 	render() {
-    console.log("student", this.props.student)
 		return (
 			<>
 				<div
