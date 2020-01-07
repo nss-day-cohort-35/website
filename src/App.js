@@ -19,6 +19,8 @@ function App() {
       <NavBar />
       <HeroCard />
       <StudentList />
+      <TechCard />
+      <Footer />
     </>
   );
 }
