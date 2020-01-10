@@ -31,7 +31,7 @@ export default class StudentCard extends Component {
 						this.props.student.concentration ===
 						"Full Stack Web Developer"
 							? "student-card-background"
-							: "student-card-background-UX"
+							: "student-card-background UX"
 					}
 				>
 					<h3 className="student-about concentration">

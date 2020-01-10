@@ -34,12 +34,12 @@ export default class StudentList extends Component {
             paths:{" "}
             <span className="paths">
 						  <span className="highlighted-text" id="cohortFrontend">
-							  UI/UX design</span>{" "}<br />
-                  and{" "}<br />
+							  UI/UX design</span>{" "}
+                  &amp;{" "}
 						  <span className="highlighted-text" id="cohortBackend">
-							  .NET and C#.</span>{" "}
+							  .NET and C#</span>{" "}
             </span>
-						Our skillsets create user-centric frontend and backend
+                Our skillsets create user-centric <br />frontend and backend
 						applications.{" "}
 					</p>
 				</div>
