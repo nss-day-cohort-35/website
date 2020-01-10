@@ -112,16 +112,10 @@
     margin-left: 1em;
     border-radius: 1em;
 }
-.student-card-background-UX {
-    display: flex;
-    color: #F6F3E1;
-    flex-direction: column;
+.student-card-background.UX {
+
     background-color: #2C323D;
-    height: auto;
-    width: 360px;
-    margin: 1em;
-    margin-left: 1em;
-    border-radius: 1em;
+
 }
 .student-pic {
     display: flex;
@@ -164,5 +158,11 @@
 @media (max-width: 675px) {
   #studentList {
     width: 100%;
+  }
+
+}
+@media (max-width: 768px){
+  .student-card-background {
+    margin:.5em;
   }
 }
