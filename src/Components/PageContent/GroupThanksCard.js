@@ -36,8 +36,18 @@ export default class GroupThanksCard extends Component {
               <li className="speakerNames"><span className="boldName">Carter Harris,</span> <small>HCA</small></li>
               <li className="speakerNames"><span className="boldName">Morgan Bortz,</span> <small>Asurion</small></li>
               <li className="speakerNames"><span className="boldName">Thomas Johnson,</span> <small>Asurion</small></li>
+
               <li className="speakerNames"><span className="boldName">Brad Lilly,</span> <small>Bluebook Media</small></li>
-            </ul>
+              <li className="speakerNames"><span className="boldName">Scott Tsuchiyama, </span> <small>GoNoodle</small></li>
+              <li className="speakerNames"><span className="boldName">Christian Hall, </span> <small>GoNoodle</small></li>
+              <li className="speakerNames"><span className="boldName">Brad Posey, </span> <small>EY</small></li>
+              <li className="speakerNames"><span className="boldName">Amber Sharpe, </span> <small>HealthStream</small></li>
+              <li className="speakerNames"><span className="boldName">Amanda Meyers, </span> <small>HealthStream</small></li>
+              <li className="speakerNames"><span className="boldName">Lindsay Mulhollen, </span> <small>HealthStream</small></li>
+              <li className="speakerNames"><span className="boldName">Melissa Robertson, </span> <small>HealthStream</small></li>
+
+
+              </ul>
           </div>
             <h3 className="teachersInfo">...and our wonderful instruction team</h3>
             <p className="teacherNames">Brenda Long, Madi Peper, Adam Sheaffer, and Mo Silvera</p>

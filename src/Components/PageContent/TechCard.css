@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 2em;
-    padding-left: 2em;
+    /* padding-left: 2em; */
 }
 .techAll {
     border-radius: .2em;
@@ -143,7 +143,11 @@
   }
   .splitCohort {
     margin-left: 0px;
+    margin-right: 0px;
     padding-left: 0px
+  }
+  .technologiesLine {
+    margin-left: .1em;
   }
 }
 
