@@ -4,22 +4,22 @@ import APIManager from '../../modules/APIManager'
 import './Students.css'
 
 export default class StudentList extends Component {
-    state = {
-        students: []
-    }
+	state = {
+		students: []
+	}
 
-    componentDidMount() {
-        APIManager.getAll().then(students => {
-            // console.log(students, "students")
-            this.setState({
-                students: students.cohort
-            });
-        });
-    }
+	componentDidMount() {
+		APIManager.getAll().then(students => {
+			// console.log(students, "students")
+			this.setState({
+				students: students.cohort
+			});
+		});
+	}
 
 
-    render() {
-        return (
+	render() {
+		return (
 			<>
 				<div id="studentList">
 					<h2 id="scroll" className="cohortIntroTitle">
@@ -32,25 +32,25 @@ export default class StudentList extends Component {
 						</span>{" "}
 						with a ReactJS capstone, we split into two complementary
             paths:{" "}
-            <span className="paths">
-						  <span className="highlighted-text" id="cohortFrontend">
-							  UI/UX design</span>{" "}<br />
-                  and{" "}<br />
-						  <span className="highlighted-text" id="cohortBackend">
-							  .NET and C#.</span>{" "}
-            </span>
+						<span className="paths">
+							<span className="highlighted-text" id="cohortFrontend">
+								UI/UX design</span>{" "}<br />
+							and{" "}<br />
+							<span className="highlighted-text" id="cohortBackend">
+								.NET and C#.</span>{" "}
+						</span>
 						Our skillsets create user-centric frontend and backend
 						applications.{" "}
 					</p>
 				</div>
 				<div className="student-body">
 					<div className="student-card-container">
-						{this.state.students.map((student,index) => (
-							<StudentCard student={student} key={index}/>
+						{this.state.students.map((student, index) => (
+							<StudentCard student={student} key={index} />
 						))}
 					</div>
 				</div>
 			</>
 		);
-    }
+	}
 }
