@@ -45,6 +45,13 @@ export default class GroupThanksCard extends Component {
               <li className="speakerNames"><span className="boldName">Amanda Meyers, </span> <small>HealthStream</small></li>
               <li className="speakerNames"><span className="boldName">Lindsay Mulhollen, </span> <small>HealthStream</small></li>
               <li className="speakerNames"><span className="boldName">Melissa Robertson, </span> <small>HealthStream</small></li>
+              <li className="speakerNames"><span className="boldName">Brad Posey, </span> <small>EY</small></li>
+              <li className="speakerNames"><span className="boldName">Jase Hackman, </span> <small>HealthStream</small></li>
+              <li className="speakerNames"><span className="boldName">Richard Lancaster, </span> <small>Smile Direct Club</small></li>
+              <li className="speakerNames"><span className="boldName">Max Beizer, </span> <small>GitHub</small></li>
+              <li className="speakerNames"><span className="boldName">Pavel Bukengolts, </span> <small>Protective Insurance</small></li>
+              <li className="speakerNames"><span className="boldName">Elizabeth Collins, </span> <small>CGI</small></li>
+
 
 
               </ul>

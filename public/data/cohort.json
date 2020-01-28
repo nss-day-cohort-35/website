@@ -87,7 +87,7 @@
 			"portfolio": "www.sageklein.com",
 			"github": "https://github.com/sageklein",
 			"linkedIn": "https://www.linkedin.com/in/sage-klein/",
-			"dribbble": "https://dribbble.com/SageKlein",
+			"dribbble": "www.dribbble.com/SageKlein",
 			"email": "sageklein@gmail.com"
 		},
         {
@@ -102,7 +102,7 @@
 			"portfolio": "www.summerliddington.com",
 			"github": "https://github.com/summerliddington",
 			"linkedIn": "https://www.linkedin.com/in/summerliddington/",
-			"dribbble": "https://dribbble.com/summerliddington",
+			"dribbble": "www.dribbble.com/summerliddington",
 			"email": "summerliddington@me.com"
 		},
         {
@@ -120,21 +120,6 @@
 			"dribbble": null,
 			"email": "laurenelizamax@icloud.com"
 		},
-        {
-            "id": 9,
-            "firstName": "Mark",
-            "lastName": "McCann",
-            "proImg": "mark-real.jpg",
-            "funImg": "mark-fun.jpg",
-            "concentration": "Full Stack Web Developer",
-            "quote": "\"Try not to become a man of success but rather to become a man of value. \"",
-            "author": "  ― Albert Einstein",
-            "portfolio": "mjmccann90.github.io",
-            "github": "https://github.com/mjmccann90",
-            "linkedIn": "www.linkedin.com/in/markjmccann12",
-            "dribbble": null,
-            "email": "mjmccann12@me.com"
-        },
         {
             "id": 10,
             "firstName": "James",
@@ -207,7 +192,7 @@
             "portfolio": "www.leighmrogers.com",
             "github": "https://github.com/LeighMRogers",
             "linkedIn": "https://www.linkedin.com/in/leighmrogers/",
-            "dribbble": "https://dribbble.com/LeighMRogers",
+            "dribbble": "www.dribbble.com/LeighMRogers",
             "email": "limarkey@gmail.com"
         },
         {
@@ -264,10 +249,10 @@
             "concentration": "UI/UX Designer & Developer",
             "quote": "\"One of the greatest discoveries a man makes, one of his great surprises, is to find he can do what he was afraid he couldn’t do.\"",
             "author": " ― Henry Ford",
-            "portfolio": " ",
+            "portfolio": "jquinsmith.github.io/jquinsmith",
             "github": "https://github.com/JQuinSmith",
             "linkedIn": "https://www.linkedin.com/in/jquinsmith/",
-            "dribbble": "https://dribbble.com/JQuinSmith",
+            "dribbble": "www.dribbble.com/JQuinSmith",
             "email": "jquinsmyth@gmail.com"
         },
         {
@@ -282,7 +267,7 @@
 			"portfolio": "",
 			"github": "https://github.com/jchandlerturner",
 			"linkedIn": "https://www.linkedin.com/in/jchandlerturner/",
-			"dribbble": "https://dribbble.com/jchandlerturner",
+			"dribbble": "www.dribbble.com/jchandlerturner",
 			"email": "jchandlerturner@icloud.com"
 		},
         {

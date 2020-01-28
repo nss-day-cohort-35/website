@@ -92,7 +92,7 @@ export default class StudentCard extends Component {
 							></img>
 						</a>
 
-            <a href={`${this.props.student.portfolio}`} target="_blank" rel="noopener noreferrer">
+            <a href={`http://${this.props.student.portfolio}`} target="_blank" >
 							<img
 								className="student-logo"
 								alt={`${this.props.student.portfolio}`}
@@ -107,7 +107,7 @@ export default class StudentCard extends Component {
 							></img>
 						</a>
 						{this.props.student.dribbble ? (
-              <a href={`${this.props.student.dribbble}`} target="_blank" rel="noopener noreferrer">
+              <a href={`http://${this.props.student.dribbble}`} target="_blank" rel="noopener noreferrer">
 								<img
 									className="student-logo"
 									alt={`${this.props.student.dribbble}`}
